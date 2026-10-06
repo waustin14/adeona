@@ -1,4 +1,4 @@
-"""Command-line entry point: `python -m adeona {score,search}`."""
+"""Command-line entry point: `python -m adeona {score,search,mcp}`."""
 
 from __future__ import annotations
 
@@ -174,6 +174,26 @@ def cmd_search(args: argparse.Namespace) -> int:
     return 0 if result["ok"] else 2
 
 
+def cmd_mcp(args: argparse.Namespace) -> int:
+    try:
+        from .mcp_server import build_server
+        server = build_server(provider=args.provider, budget=args.budget, profile=args.profile,
+                              assumptions=args.assumptions, fixture=args.fixture)
+    except ModuleNotFoundError as e:
+        if e.name != "mcp" and not (e.name or "").startswith("mcp."):
+            raise
+        print("error: the MCP server needs the 'mcp' package: pip install -e '.[mcp]'", file=sys.stderr)
+        return 1
+    if args.transport == "stdio":
+        server.run("stdio")
+    else:
+        if args.host not in ("127.0.0.1", "localhost", "::1"):
+            print(f"warning: serving on {args.host} without authentication; anyone who can reach it "
+                  f"can spend your API budget", file=sys.stderr)
+        server.run("streamable-http", host=args.host, port=args.port)
+    return 0
+
+
 def _add_party_args(p: argparse.ArgumentParser) -> None:
     g = p.add_argument_group("party (default: just you)")
     g.add_argument("--travelers", default=None, help="names from profile.travelers, 'me' = you, e.g. me,alex")
@@ -213,6 +233,18 @@ def build_parser() -> argparse.ArgumentParser:
     q.add_argument("--profile", default=DEFAULT_PROFILE, help="used to resolve --travelers names")
     _add_party_args(q)
     q.set_defaults(func=cmd_search)
+
+    m = sub.add_parser("mcp", help="run as an MCP server (read-only tools for an AI client)")
+    m.add_argument("--transport", choices=["stdio", "http"], default="stdio",
+                   help="stdio for local clients (Claude Code/Desktop); http = streamable HTTP at /mcp")
+    m.add_argument("--host", default="127.0.0.1")
+    m.add_argument("--port", type=int, default=8000)
+    m.add_argument("--provider", choices=["mock", "serpapi"], default="mock")
+    m.add_argument("--budget", type=int, default=10, help="max uncached API calls for the server's lifetime")
+    m.add_argument("--profile", default=DEFAULT_PROFILE)
+    m.add_argument("--assumptions", default=DEFAULT_ASSUMPTIONS)
+    m.add_argument("--fixture", default=None, help="mock provider fixture JSON")
+    m.set_defaults(func=cmd_mcp)
     return p
 
 

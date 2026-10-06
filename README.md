@@ -61,6 +61,38 @@ python -m adeona score --input fam.json --profile config/profile.yaml   # party 
   `companion_free_bags` says so (United Silver: yes, verify; Southwest: not assumed).
 * **Awards:** points x seats; the note flags that award availability for N seats is unverified.
 
+## MCP server
+
+Adeona can run as an [MCP](https://modelcontextprotocol.io) server so an AI client
+(Claude Code, Claude Desktop, ...) can search and rank flights for you. It stays read-only:
+every tool carries `readOnlyHint`, and nothing can book or pay.
+
+```bash
+uv pip install -e ".[mcp]"                          # or: pip install -e ".[mcp]"
+python -m adeona mcp                                 # stdio, mock provider (offline)
+python -m adeona mcp --provider serpapi --budget 10  # live data, at most 10 uncached calls
+python -m adeona mcp --transport http --port 8000    # streamable HTTP at http://127.0.0.1:8000/mcp
+```
+
+Register it with Claude Code (run from the repo so `config/` and `.env` resolve):
+
+```bash
+claude mcp add adeona -- "$PWD/.venv/bin/python" -m adeona mcp --provider serpapi --budget 10
+```
+
+| Tool | What it does | Budget |
+|------|--------------|--------|
+| `search_flights` | One-way search, same options as `adeona search` (party, `layover_minutes`, `show_hidden`, `fare_details=N`). Returns a `search_id`. | 1 per uncached call (+N) |
+| `fare_details` | Fare brands + bag fees for one itinerary of a stored search; re-prices it in place | 1 if uncached |
+| `rank_flights` | Effective-cost ranking with itemized breakdown, by `search_id` or a raw `flights` list | none |
+| `budget_status` | Calls used / remaining, active provider | none |
+
+* **One budget per server process**, shared by all connected clients (`--budget`, default 10).
+  The 1h `.cache/` still applies, so repeated searches are free.
+* Searches are held in memory (last 50) under their `search_id`; they're gone when the server stops.
+* The HTTP transport has **no authentication**. Keep it on `127.0.0.1`; on any other host
+  anyone who can reach the port can spend your SerpApi budget.
+
 ## Layout
 
 ```
@@ -76,6 +108,7 @@ src/adeona/
   profile.py              profile + assumptions loaders with readable errors
   scoring.py              pure scoring functions + hard-constraint filter
   search.py               search_flights tool: provider + 1h cache + call budget + call log
+  mcp_server.py           MCP server: search/fare/rank tools over stdio or streamable HTTP
   cache.py budget.py calllog.py
   providers/mock.py       offline fixture provider
   providers/serpapi.py    SerpApi Google Flights adapter (search + booking options), verified live 2026-10-06
