@@ -1,0 +1,1517 @@
+{
+ "_comment": "Real SerpApi google_flights response captured 2026-10-06, trimmed (logos, click URLs, metadata removed).",
+ "search_parameters": {
+  "engine": "google_flights",
+  "hl": "en",
+  "gl": "us",
+  "type": "2",
+  "departure_id": "BWI,IAD,DCA",
+  "arrival_id": "MCO",
+  "outbound_date": "2026-11-14",
+  "travel_class": 1,
+  "adults": 1,
+  "stops": 2,
+  "bags": 0,
+  "currency": "USD",
+  "exclude_basic": true
+ },
+ "best_flights": [
+  {
+   "flights": [
+    {
+     "departure_airport": {
+      "name": "Dulles International Airport",
+      "id": "IAD",
+      "time": "2026-11-14 11:16"
+     },
+     "arrival_airport": {
+      "name": "Orlando International Airport",
+      "id": "MCO",
+      "time": "2026-11-14 13:49"
+     },
+     "duration": 153,
+     "airplane": "Airbus A320neo",
+     "airline": "Frontier",
+     "travel_class": "Economy",
+     "flight_number": "F9 4355",
+     "legroom": "28 in",
+     "extensions": [
+      "Below average legroom (28 in)",
+      "Carbon emissions estimate: 100 kg"
+     ]
+    }
+   ],
+   "total_duration": 153,
+   "carbon_emissions": {
+    "this_flight": 101000,
+    "typical_for_this_route": 129000,
+    "difference_percent": -22
+   },
+   "price": 83,
+   "type": "One way",
+   "extensions": [
+    "Checked baggage for a fee"
+   ],
+   "booking_token": "WyJDalJJV0VwVlRVRlhjMVZuV0ZWQlZIcDFWRUZDUnkwdExTMHRMUzB0TFMxMmQzbHFPVUZCUVVGQlIzSkdTVUpGUW5obFNsZEJFZ1pHT1RRek5UVWFDZ2pxUUJBQ0dnTlZVMFE0SEhEcVFBPT0iLFtbIklBRCIsIjIwMjYtMTEtMTQiLCJNQ08iLG51bGwsIkY5IiwiNDM1NSJdXV0="
+  },
+  {
+   "flights": [
+    {
+     "departure_airport": {
+      "name": "Ronald Reagan Washington National Airport",
+      "id": "DCA",
+      "time": "2026-11-14 16:40"
+     },
+     "arrival_airport": {
+      "name": "Orlando International Airport",
+      "id": "MCO",
+      "time": "2026-11-14 19:10"
+     },
+     "duration": 150,
+     "airplane": "Boeing 737-700 (Scimitar Winglets) Pax",
+     "airline": "Southwest",
+     "travel_class": "Economy",
+     "flight_number": "WN 1488",
+     "legroom": "31 in",
+     "extensions": [
+      "Average legroom (31 in)",
+      "Free Wi-Fi",
+      "Stream media to your device",
+      "Carbon emissions estimate: 135 kg"
+     ]
+    }
+   ],
+   "total_duration": 150,
+   "carbon_emissions": {
+    "this_flight": 136000,
+    "typical_for_this_route": 129000,
+    "difference_percent": 5
+   },
+   "price": 102,
+   "type": "One way",
+   "extensions": [
+    "Checked baggage for a fee"
+   ],
+   "booking_token": "WyJDalJJV0VwVlRVRlhjMVZuV0ZWQlZIcDFWRUZDUnkwdExTMHRMUzB0TFMxMmQzbHFPVUZCUVVGQlIzSkdTVUpGUW5obFNsZEJFZ1pYVGpFME9EZ2FDZ2pRVHhBQ0dnTlZVMFE0SEhEUVR3PT0iLFtbIkRDQSIsIjIwMjYtMTEtMTQiLCJNQ08iLG51bGwsIldOIiwiMTQ4OCJdXV0="
+  },
+  {
+   "flights": [
+    {
+     "departure_airport": {
+      "name": "Ronald Reagan Washington National Airport",
+      "id": "DCA",
+      "time": "2026-11-14 07:00"
+     },
+     "arrival_airport": {
+      "name": "Orlando International Airport",
+      "id": "MCO",
+      "time": "2026-11-14 09:31"
+     },
+     "duration": 151,
+     "airplane": "Airbus A320",
+     "airline": "JetBlue",
+     "travel_class": "Economy",
+     "flight_number": "B6 2423",
+     "legroom": "32 in",
+     "extensions": [
+      "Above average legroom (32 in)",
+      "Free Wi-Fi",
+      "In-seat power & USB outlets",
+      "Live TV",
+      "Carbon emissions estimate: 129 kg"
+     ]
+    }
+   ],
+   "total_duration": 151,
+   "carbon_emissions": {
+    "this_flight": 130000,
+    "typical_for_this_route": 129000,
+    "difference_percent": 1
+   },
+   "price": 114,
+   "type": "One way",
+   "extensions": [
+    "Checked baggage for a fee"
+   ],
+   "booking_token": "WyJDalJJV0VwVlRVRlhjMVZuV0ZWQlZIcDFWRUZDUnkwdExTMHRMUzB0TFMxMmQzbHFPVUZCUVVGQlIzSkdTVUpGUW5obFNsZEJFZ1pDTmpJME1qTWFDZ2pNV0JBQ0dnTlZVMFE0SEhETVdBPT0iLFtbIkRDQSIsIjIwMjYtMTEtMTQiLCJNQ08iLG51bGwsIkI2IiwiMjQyMyJdXV0="
+  },
+  {
+   "flights": [
+    {
+     "departure_airport": {
+      "name": "Ronald Reagan Washington National Airport",
+      "id": "DCA",
+      "time": "2026-11-14 14:55"
+     },
+     "arrival_airport": {
+      "name": "Orlando International Airport",
+      "id": "MCO",
+      "time": "2026-11-14 17:18"
+     },
+     "duration": 143,
+     "airplane": "Airbus A319",
+     "airline": "Delta",
+     "travel_class": "Economy",
+     "flight_number": "DL 2729",
+     "legroom": "31 in",
+     "extensions": [
+      "Average legroom (31 in)",
+      "Free Wi-Fi",
+      "In-seat power & USB outlets",
+      "Live TV",
+      "Carbon emissions estimate: 144 kg"
+     ]
+    }
+   ],
+   "total_duration": 143,
+   "carbon_emissions": {
+    "this_flight": 145000,
+    "typical_for_this_route": 129000,
+    "difference_percent": 12
+   },
+   "price": 119,
+   "type": "One way",
+   "extensions": [
+    "Checked baggage for a fee"
+   ],
+   "booking_token": "WyJDalJJV0VwVlRVRlhjMVZuV0ZWQlZIcDFWRUZDUnkwdExTMHRMUzB0TFMxMmQzbHFPVUZCUVVGQlIzSkdTVUpGUW5obFNsZEJFZ1pFVERJM01qa2FDZ2pBWEJBQ0dnTlZVMFE0SEhEQVhBPT0iLFtbIkRDQSIsIjIwMjYtMTEtMTQiLCJNQ08iLG51bGwsIkRMIiwiMjcyOSJdXV0="
+  }
+ ],
+ "other_flights": [
+  {
+   "flights": [
+    {
+     "departure_airport": {
+      "name": "Baltimore/Washington International Thurgood Marshall Airport",
+      "id": "BWI",
+      "time": "2026-11-14 15:40"
+     },
+     "arrival_airport": {
+      "name": "Fort Lauderdale-Hollywood International Airport",
+      "id": "FLL",
+      "time": "2026-11-14 18:17"
+     },
+     "duration": 157,
+     "airplane": "Airbus A320",
+     "airline": "JetBlue",
+     "travel_class": "Economy",
+     "flight_number": "B6 2595",
+     "legroom": "32 in",
+     "extensions": [
+      "Above average legroom (32 in)",
+      "Free Wi-Fi",
+      "In-seat power & USB outlets",
+      "Live TV",
+      "Carbon emissions estimate: 157 kg"
+     ]
+    },
+    {
+     "departure_airport": {
+      "name": "Fort Lauderdale-Hollywood International Airport",
+      "id": "FLL",
+      "time": "2026-11-14 21:10"
+     },
+     "arrival_airport": {
+      "name": "Orlando International Airport",
+      "id": "MCO",
+      "time": "2026-11-14 22:24"
+     },
+     "duration": 74,
+     "airplane": "Airbus A320",
+     "airline": "JetBlue",
+     "travel_class": "Economy",
+     "flight_number": "B6 1948",
+     "legroom": "32 in",
+     "extensions": [
+      "Above average legroom (32 in)",
+      "Free Wi-Fi",
+      "In-seat power & USB outlets",
+      "Live TV",
+      "Carbon emissions estimate: 60 kg"
+     ],
+     "often_delayed_by_over_30_min": true
+    }
+   ],
+   "layovers": [
+    {
+     "duration": 173,
+     "name": "Fort Lauderdale-Hollywood International Airport",
+     "id": "FLL"
+    }
+   ],
+   "total_duration": 404,
+   "carbon_emissions": {
+    "this_flight": 218000,
+    "typical_for_this_route": 129000,
+    "difference_percent": 69
+   },
+   "price": 80,
+   "type": "One way",
+   "extensions": [
+    "Checked baggage for a fee"
+   ],
+   "booking_token": "WyJDalJJV0VwVlRVRlhjMVZuV0ZWQlZIcDFWRUZDUnkwdExTMHRMUzB0TFMxMmQzbHFPVUZCUVVGQlIzSkdTVUpGUW5obFNsZEJFZzFDTmpJMU9UVjhRall4T1RRNEdnb0lzVDRRQWhvRFZWTkVPQnh3c1Q0PSIsW1siQldJIiwiMjAyNi0xMS0xNCIsIkZMTCIsbnVsbCwiQjYiLCIyNTk1Il0sWyJGTEwiLCIyMDI2LTExLTE0IiwiTUNPIixudWxsLCJCNiIsIjE5NDgiXV1d"
+  },
+  {
+   "flights": [
+    {
+     "departure_airport": {
+      "name": "Ronald Reagan Washington National Airport",
+      "id": "DCA",
+      "time": "2026-11-14 16:49"
+     },
+     "arrival_airport": {
+      "name": "Fort Lauderdale-Hollywood International Airport",
+      "id": "FLL",
+      "time": "2026-11-14 19:31"
+     },
+     "duration": 162,
+     "airplane": "Airbus A320",
+     "airline": "JetBlue",
+     "travel_class": "Economy",
+     "flight_number": "B6 1579",
+     "legroom": "32 in",
+     "extensions": [
+      "Above average legroom (32 in)",
+      "Free Wi-Fi",
+      "In-seat power & USB outlets",
+      "Live TV",
+      "Carbon emissions estimate: 151 kg"
+     ]
+    },
+    {
+     "departure_airport": {
+      "name": "Fort Lauderdale-Hollywood International Airport",
+      "id": "FLL",
+      "time": "2026-11-14 21:10"
+     },
+     "arrival_airport": {
+      "name": "Orlando International Airport",
+      "id": "MCO",
+      "time": "2026-11-14 22:24"
+     },
+     "duration": 74,
+     "airplane": "Airbus A320",
+     "airline": "JetBlue",
+     "travel_class": "Economy",
+     "flight_number": "B6 1948",
+     "legroom": "32 in",
+     "extensions": [
+      "Above average legroom (32 in)",
+      "Free Wi-Fi",
+      "In-seat power & USB outlets",
+      "Live TV",
+      "Carbon emissions estimate: 60 kg"
+     ],
+     "often_delayed_by_over_30_min": true
+    }
+   ],
+   "layovers": [
+    {
+     "duration": 99,
+     "name": "Fort Lauderdale-Hollywood International Airport",
+     "id": "FLL"
+    }
+   ],
+   "total_duration": 335,
+   "carbon_emissions": {
+    "this_flight": 212000,
+    "typical_for_this_route": 129000,
+    "difference_percent": 64
+   },
+   "price": 81,
+   "type": "One way",
+   "extensions": [
+    "Checked baggage for a fee"
+   ],
+   "booking_token": "WyJDalJJV0VwVlRVRlhjMVZuV0ZWQlZIcDFWRUZDUnkwdExTMHRMUzB0TFMxMmQzbHFPVUZCUVVGQlIzSkdTVUpGUW5obFNsZEJFZzFDTmpFMU56bDhRall4T1RRNEdnb0lqajhRQWhvRFZWTkVPQnh3amo4PSIsW1siRENBIiwiMjAyNi0xMS0xNCIsIkZMTCIsbnVsbCwiQjYiLCIxNTc5Il0sWyJGTEwiLCIyMDI2LTExLTE0IiwiTUNPIixudWxsLCJCNiIsIjE5NDgiXV1d"
+  },
+  {
+   "flights": [
+    {
+     "departure_airport": {
+      "name": "Baltimore/Washington International Thurgood Marshall Airport",
+      "id": "BWI",
+      "time": "2026-11-14 15:17"
+     },
+     "arrival_airport": {
+      "name": "Orlando International Airport",
+      "id": "MCO",
+      "time": "2026-11-14 17:49"
+     },
+     "duration": 152,
+     "airplane": "Airbus A321neo",
+     "airline": "Frontier",
+     "travel_class": "Economy",
+     "flight_number": "F9 3663",
+     "legroom": "28 in",
+     "extensions": [
+      "Below average legroom (28 in)",
+      "Carbon emissions estimate: 88 kg"
+     ]
+    }
+   ],
+   "total_duration": 152,
+   "carbon_emissions": {
+    "this_flight": 89000,
+    "typical_for_this_route": 129000,
+    "difference_percent": -31
+   },
+   "price": 94,
+   "type": "One way",
+   "extensions": [
+    "Checked baggage for a fee"
+   ],
+   "booking_token": "WyJDalJJV0VwVlRVRlhjMVZuV0ZWQlZIcDFWRUZDUnkwdExTMHRMUzB0TFMxMmQzbHFPVUZCUVVGQlIzSkdTVUpGUW5obFNsZEJFZ1pHT1RNMk5qTWFDZ2kyU1JBQ0dnTlZVMFE0SEhDMlNRPT0iLFtbIkJXSSIsIjIwMjYtMTEtMTQiLCJNQ08iLG51bGwsIkY5IiwiMzY2MyJdXV0="
+  },
+  {
+   "flights": [
+    {
+     "departure_airport": {
+      "name": "Baltimore/Washington International Thurgood Marshall Airport",
+      "id": "BWI",
+      "time": "2026-11-14 09:12"
+     },
+     "arrival_airport": {
+      "name": "Orlando International Airport",
+      "id": "MCO",
+      "time": "2026-11-14 11:43"
+     },
+     "duration": 151,
+     "airplane": "Airbus A320neo",
+     "airline": "Frontier",
+     "travel_class": "Economy",
+     "flight_number": "F9 2309",
+     "legroom": "28 in",
+     "extensions": [
+      "Below average legroom (28 in)",
+      "Carbon emissions estimate: 97 kg"
+     ],
+     "often_delayed_by_over_30_min": true
+    }
+   ],
+   "total_duration": 151,
+   "carbon_emissions": {
+    "this_flight": 97000,
+    "typical_for_this_route": 129000,
+    "difference_percent": -25
+   },
+   "price": 114,
+   "type": "One way",
+   "extensions": [
+    "Checked baggage for a fee"
+   ],
+   "booking_token": "WyJDalJJV0VwVlRVRlhjMVZuV0ZWQlZIcDFWRUZDUnkwdExTMHRMUzB0TFMxMmQzbHFPVUZCUVVGQlIzSkdTVUpGUW5obFNsZEJFZ1pHT1RJek1Ea2FDZ2lHV1JBQ0dnTlZVMFE0SEhDR1dRPT0iLFtbIkJXSSIsIjIwMjYtMTEtMTQiLCJNQ08iLG51bGwsIkY5IiwiMjMwOSJdXV0="
+  },
+  {
+   "flights": [
+    {
+     "departure_airport": {
+      "name": "Baltimore/Washington International Thurgood Marshall Airport",
+      "id": "BWI",
+      "time": "2026-11-14 21:52"
+     },
+     "arrival_airport": {
+      "name": "Orlando International Airport",
+      "id": "MCO",
+      "time": "2026-11-15 00:19"
+     },
+     "duration": 147,
+     "airplane": "Airbus A320neo",
+     "airline": "Frontier",
+     "travel_class": "Economy",
+     "flight_number": "F9 3273",
+     "legroom": "28 in",
+     "extensions": [
+      "Below average legroom (28 in)",
+      "Carbon emissions estimate: 97 kg"
+     ]
+    }
+   ],
+   "total_duration": 147,
+   "carbon_emissions": {
+    "this_flight": 97000,
+    "typical_for_this_route": 129000,
+    "difference_percent": -25
+   },
+   "price": 114,
+   "type": "One way",
+   "extensions": [
+    "Checked baggage for a fee"
+   ],
+   "booking_token": "WyJDalJJV0VwVlRVRlhjMVZuV0ZWQlZIcDFWRUZDUnkwdExTMHRMUzB0TFMxMmQzbHFPVUZCUVVGQlIzSkdTVUpGUW5obFNsZEJFZ1pHT1RNeU56TWFDZ2lHV1JBQ0dnTlZVMFE0SEhDR1dRPT0iLFtbIkJXSSIsIjIwMjYtMTEtMTQiLCJNQ08iLG51bGwsIkY5IiwiMzI3MyJdXV0="
+  },
+  {
+   "flights": [
+    {
+     "departure_airport": {
+      "name": "Ronald Reagan Washington National Airport",
+      "id": "DCA",
+      "time": "2026-11-14 07:00"
+     },
+     "arrival_airport": {
+      "name": "Orlando International Airport",
+      "id": "MCO",
+      "time": "2026-11-14 09:22"
+     },
+     "duration": 142,
+     "airplane": "Airbus A319",
+     "airline": "Delta",
+     "travel_class": "Economy",
+     "flight_number": "DL 1003",
+     "legroom": "31 in",
+     "extensions": [
+      "Average legroom (31 in)",
+      "Free Wi-Fi",
+      "In-seat power & USB outlets",
+      "Live TV",
+      "Carbon emissions estimate: 144 kg"
+     ]
+    }
+   ],
+   "total_duration": 142,
+   "carbon_emissions": {
+    "this_flight": 145000,
+    "typical_for_this_route": 129000,
+    "difference_percent": 12
+   },
+   "price": 119,
+   "type": "One way",
+   "extensions": [
+    "Checked baggage for a fee"
+   ],
+   "booking_token": "WyJDalJJV0VwVlRVRlhjMVZuV0ZWQlZIcDFWRUZDUnkwdExTMHRMUzB0TFMxMmQzbHFPVUZCUVVGQlIzSkdTVUpGUW5obFNsZEJFZ1pFVERFd01ETWFDZ2pBWEJBQ0dnTlZVMFE0SEhEQVhBPT0iLFtbIkRDQSIsIjIwMjYtMTEtMTQiLCJNQ08iLG51bGwsIkRMIiwiMTAwMyJdXV0="
+  },
+  {
+   "flights": [
+    {
+     "departure_airport": {
+      "name": "Dulles International Airport",
+      "id": "IAD",
+      "time": "2026-11-14 15:10"
+     },
+     "arrival_airport": {
+      "name": "Orlando International Airport",
+      "id": "MCO",
+      "time": "2026-11-14 17:40"
+     },
+     "duration": 150,
+     "airplane": "Boeing 737MAX 9 Passenger",
+     "airline": "United",
+     "travel_class": "Economy",
+     "flight_number": "UA 1101",
+     "legroom": "30 in",
+     "extensions": [
+      "Average legroom (30 in)",
+      "Wi-Fi for a fee",
+      "In-seat power outlet",
+      "Stream media to your device",
+      "Carbon emissions estimate: 97 kg"
+     ]
+    }
+   ],
+   "total_duration": 150,
+   "carbon_emissions": {
+    "this_flight": 97000,
+    "typical_for_this_route": 129000,
+    "difference_percent": -25
+   },
+   "price": 119,
+   "type": "One way",
+   "extensions": [
+    "Checked baggage for a fee"
+   ],
+   "booking_token": "WyJDalJJV0VwVlRVRlhjMVZuV0ZWQlZIcDFWRUZDUnkwdExTMHRMUzB0TFMxMmQzbHFPVUZCUVVGQlIzSkdTVUpGUW5obFNsZEJFZ1pWUVRFeE1ERWFDZ2pBWEJBQ0dnTlZVMFE0SEhEQVhBPT0iLFtbIklBRCIsIjIwMjYtMTEtMTQiLCJNQ08iLG51bGwsIlVBIiwiMTEwMSJdXV0="
+  },
+  {
+   "flights": [
+    {
+     "departure_airport": {
+      "name": "Dulles International Airport",
+      "id": "IAD",
+      "time": "2026-11-14 17:44"
+     },
+     "arrival_airport": {
+      "name": "Orlando International Airport",
+      "id": "MCO",
+      "time": "2026-11-14 20:15"
+     },
+     "duration": 151,
+     "airplane": "Boeing 737",
+     "airline": "United",
+     "travel_class": "Economy",
+     "flight_number": "UA 2463",
+     "legroom": "30 in",
+     "extensions": [
+      "Average legroom (30 in)",
+      "Wi-Fi for a fee",
+      "In-seat power outlet",
+      "Stream media to your device",
+      "Carbon emissions estimate: 116 kg"
+     ],
+     "often_delayed_by_over_30_min": true
+    }
+   ],
+   "total_duration": 151,
+   "carbon_emissions": {
+    "this_flight": 116000,
+    "typical_for_this_route": 129000,
+    "difference_percent": -10
+   },
+   "price": 119,
+   "type": "One way",
+   "extensions": [
+    "Checked baggage for a fee"
+   ],
+   "booking_token": "WyJDalJJV0VwVlRVRlhjMVZuV0ZWQlZIcDFWRUZDUnkwdExTMHRMUzB0TFMxMmQzbHFPVUZCUVVGQlIzSkdTVUpGUW5obFNsZEJFZ1pWUVRJME5qTWFDZ2pBWEJBQ0dnTlZVMFE0SEhEQVhBPT0iLFtbIklBRCIsIjIwMjYtMTEtMTQiLCJNQ08iLG51bGwsIlVBIiwiMjQ2MyJdXV0="
+  },
+  {
+   "flights": [
+    {
+     "departure_airport": {
+      "name": "Dulles International Airport",
+      "id": "IAD",
+      "time": "2026-11-14 22:32"
+     },
+     "arrival_airport": {
+      "name": "Orlando International Airport",
+      "id": "MCO",
+      "time": "2026-11-15 00:59"
+     },
+     "duration": 147,
+     "airplane": "Boeing 737MAX 9 Passenger",
+     "airline": "United",
+     "travel_class": "Economy",
+     "flight_number": "UA 689",
+     "legroom": "30 in",
+     "extensions": [
+      "Average legroom (30 in)",
+      "Wi-Fi for a fee",
+      "In-seat power outlet",
+      "Stream media to your device",
+      "Carbon emissions estimate: 97 kg"
+     ]
+    }
+   ],
+   "total_duration": 147,
+   "carbon_emissions": {
+    "this_flight": 97000,
+    "typical_for_this_route": 129000,
+    "difference_percent": -25
+   },
+   "price": 119,
+   "type": "One way",
+   "extensions": [
+    "Checked baggage for a fee"
+   ],
+   "booking_token": "WyJDalJJV0VwVlRVRlhjMVZuV0ZWQlZIcDFWRUZDUnkwdExTMHRMUzB0TFMxMmQzbHFPVUZCUVVGQlIzSkdTVUpGUW5obFNsZEJFZ1ZWUVRZNE9Sb0tDTUJjRUFJYUExVlRSRGdjY01CYyIsW1siSUFEIiwiMjAyNi0xMS0xNCIsIk1DTyIsbnVsbCwiVUEiLCI2ODkiXV1d"
+  },
+  {
+   "flights": [
+    {
+     "departure_airport": {
+      "name": "Ronald Reagan Washington National Airport",
+      "id": "DCA",
+      "time": "2026-11-14 06:40"
+     },
+     "arrival_airport": {
+      "name": "Orlando International Airport",
+      "id": "MCO",
+      "time": "2026-11-14 09:12"
+     },
+     "duration": 152,
+     "airplane": "Airbus A319",
+     "airline": "American",
+     "travel_class": "Economy",
+     "flight_number": "AA 1636",
+     "legroom": "30 in",
+     "extensions": [
+      "Average legroom (30 in)",
+      "Free Wi-Fi",
+      "In-seat power outlet",
+      "Stream media to your device",
+      "Carbon emissions estimate: 147 kg"
+     ]
+    }
+   ],
+   "total_duration": 152,
+   "carbon_emissions": {
+    "this_flight": 148000,
+    "typical_for_this_route": 129000,
+    "difference_percent": 15
+   },
+   "price": 154,
+   "type": "One way",
+   "extensions": [
+    "Checked baggage for a fee"
+   ],
+   "booking_token": "WyJDalJJV0VwVlRVRlhjMVZuV0ZWQlZIcDFWRUZDUnkwdExTMHRMUzB0TFMxMmQzbHFPVUZCUVVGQlIzSkdTVUpGUW5obFNsZEJFZ1pCUVRFMk16WWFDZ2pzZHhBQ0dnTlZVMFE0SEhEc2R3PT0iLFtbIkRDQSIsIjIwMjYtMTEtMTQiLCJNQ08iLG51bGwsIkFBIiwiMTYzNiJdXV0="
+  },
+  {
+   "flights": [
+    {
+     "departure_airport": {
+      "name": "Ronald Reagan Washington National Airport",
+      "id": "DCA",
+      "time": "2026-11-14 20:00"
+     },
+     "arrival_airport": {
+      "name": "Orlando International Airport",
+      "id": "MCO",
+      "time": "2026-11-14 22:33"
+     },
+     "duration": 153,
+     "airplane": "Boeing 737",
+     "airline": "American",
+     "travel_class": "Economy",
+     "flight_number": "AA 3270",
+     "legroom": "30 in",
+     "extensions": [
+      "Average legroom (30 in)",
+      "Free Wi-Fi",
+      "In-seat power & USB outlets",
+      "Stream media to your device",
+      "Carbon emissions estimate: 124 kg"
+     ]
+    }
+   ],
+   "total_duration": 153,
+   "carbon_emissions": {
+    "this_flight": 124000,
+    "typical_for_this_route": 129000,
+    "difference_percent": -4
+   },
+   "price": 154,
+   "type": "One way",
+   "extensions": [
+    "Checked baggage for a fee"
+   ],
+   "booking_token": "WyJDalJJV0VwVlRVRlhjMVZuV0ZWQlZIcDFWRUZDUnkwdExTMHRMUzB0TFMxMmQzbHFPVUZCUVVGQlIzSkdTVUpGUW5obFNsZEJFZ1pCUVRNeU56QWFDZ2pzZHhBQ0dnTlZVMFE0SEhEc2R3PT0iLFtbIkRDQSIsIjIwMjYtMTEtMTQiLCJNQ08iLG51bGwsIkFBIiwiMzI3MCJdXV0="
+  },
+  {
+   "flights": [
+    {
+     "departure_airport": {
+      "name": "Ronald Reagan Washington National Airport",
+      "id": "DCA",
+      "time": "2026-11-14 12:55"
+     },
+     "arrival_airport": {
+      "name": "Orlando International Airport",
+      "id": "MCO",
+      "time": "2026-11-14 15:25"
+     },
+     "duration": 150,
+     "airplane": "Boeing 737",
+     "airline": "Southwest",
+     "travel_class": "Economy",
+     "flight_number": "WN 1440",
+     "legroom": "31 in",
+     "extensions": [
+      "Average legroom (31 in)",
+      "Free Wi-Fi",
+      "In-seat USB outlet",
+      "Stream media to your device",
+      "Carbon emissions estimate: 117 kg"
+     ]
+    }
+   ],
+   "total_duration": 150,
+   "carbon_emissions": {
+    "this_flight": 117000,
+    "typical_for_this_route": 129000,
+    "difference_percent": -9
+   },
+   "price": 173,
+   "type": "One way",
+   "extensions": [
+    "Checked baggage for a fee"
+   ],
+   "booking_token": "WyJDalJJV0VwVlRVRlhjMVZuV0ZWQlZIcDFWRUZDUnkwdExTMHRMUzB0TFMxMmQzbHFPVUZCUVVGQlIzSkdTVUpGUW5obFNsZEJFZ1pYVGpFME5EQWFDd2pZaGdFUUFob0RWVk5FT0J4dzJJWUIiLFtbIkRDQSIsIjIwMjYtMTEtMTQiLCJNQ08iLG51bGwsIldOIiwiMTQ0MCJdXV0="
+  },
+  {
+   "flights": [
+    {
+     "departure_airport": {
+      "name": "Dulles International Airport",
+      "id": "IAD",
+      "time": "2026-11-14 12:45"
+     },
+     "arrival_airport": {
+      "name": "Orlando International Airport",
+      "id": "MCO",
+      "time": "2026-11-14 15:16"
+     },
+     "duration": 151,
+     "airplane": "Boeing 737",
+     "airline": "United",
+     "travel_class": "Economy",
+     "flight_number": "UA 2206",
+     "legroom": "30 in",
+     "extensions": [
+      "Average legroom (30 in)",
+      "Wi-Fi for a fee",
+      "In-seat power outlet",
+      "Stream media to your device",
+      "Carbon emissions estimate: 116 kg"
+     ]
+    }
+   ],
+   "total_duration": 151,
+   "carbon_emissions": {
+    "this_flight": 116000,
+    "typical_for_this_route": 129000,
+    "difference_percent": -10
+   },
+   "price": 177,
+   "type": "One way",
+   "extensions": [
+    "Checked baggage for a fee"
+   ],
+   "booking_token": "WyJDalJJV0VwVlRVRlhjMVZuV0ZWQlZIcDFWRUZDUnkwdExTMHRMUzB0TFMxMmQzbHFPVUZCUVVGQlIzSkdTVUpGUW5obFNsZEJFZ1pWUVRJeU1EWWFDd2pqaVFFUUFob0RWVk5FT0J4dzQ0a0IiLFtbIklBRCIsIjIwMjYtMTEtMTQiLCJNQ08iLG51bGwsIlVBIiwiMjIwNiJdXV0="
+  },
+  {
+   "flights": [
+    {
+     "departure_airport": {
+      "name": "Baltimore/Washington International Thurgood Marshall Airport",
+      "id": "BWI",
+      "time": "2026-11-14 15:00"
+     },
+     "arrival_airport": {
+      "name": "Orlando International Airport",
+      "id": "MCO",
+      "time": "2026-11-14 17:30"
+     },
+     "duration": 150,
+     "airplane": "Boeing 737MAX 8 Passenger",
+     "airline": "Southwest",
+     "travel_class": "Economy",
+     "flight_number": "WN 1063",
+     "legroom": "31 in",
+     "extensions": [
+      "Average legroom (31 in)",
+      "Free Wi-Fi",
+      "In-seat USB outlet",
+      "Stream media to your device",
+      "Carbon emissions estimate: 115 kg"
+     ]
+    }
+   ],
+   "total_duration": 150,
+   "carbon_emissions": {
+    "this_flight": 116000,
+    "typical_for_this_route": 129000,
+    "difference_percent": -10
+   },
+   "price": 184,
+   "type": "One way",
+   "extensions": [
+    "Checked baggage for a fee"
+   ],
+   "booking_token": "WyJDalJJV0VwVlRVRlhjMVZuV0ZWQlZIcDFWRUZDUnkwdExTMHRMUzB0TFMxMmQzbHFPVUZCUVVGQlIzSkdTVUpGUW5obFNsZEJFZ1pYVGpFd05qTWFDd2pKandFUUFob0RWVk5FT0J4d3lZOEIiLFtbIkJXSSIsIjIwMjYtMTEtMTQiLCJNQ08iLG51bGwsIldOIiwiMTA2MyJdXV0="
+  },
+  {
+   "flights": [
+    {
+     "departure_airport": {
+      "name": "Baltimore/Washington International Thurgood Marshall Airport",
+      "id": "BWI",
+      "time": "2026-11-14 16:00"
+     },
+     "arrival_airport": {
+      "name": "Orlando International Airport",
+      "id": "MCO",
+      "time": "2026-11-14 18:25"
+     },
+     "duration": 145,
+     "airplane": "Boeing 737-700 (Scimitar Winglets) Pax",
+     "airline": "Southwest",
+     "travel_class": "Economy",
+     "flight_number": "WN 309",
+     "legroom": "31 in",
+     "extensions": [
+      "Average legroom (31 in)",
+      "Free Wi-Fi",
+      "Stream media to your device",
+      "Carbon emissions estimate: 152 kg"
+     ]
+    }
+   ],
+   "total_duration": 145,
+   "carbon_emissions": {
+    "this_flight": 152000,
+    "typical_for_this_route": 129000,
+    "difference_percent": 18
+   },
+   "price": 184,
+   "type": "One way",
+   "extensions": [
+    "Checked baggage for a fee"
+   ],
+   "booking_token": "WyJDalJJV0VwVlRVRlhjMVZuV0ZWQlZIcDFWRUZDUnkwdExTMHRMUzB0TFMxMmQzbHFPVUZCUVVGQlIzSkdTVUpGUW5obFNsZEJFZ1ZYVGpNd09Sb0xDTW1QQVJBQ0dnTlZVMFE0SEhESmp3RT0iLFtbIkJXSSIsIjIwMjYtMTEtMTQiLCJNQ08iLG51bGwsIldOIiwiMzA5Il1dXQ=="
+  },
+  {
+   "flights": [
+    {
+     "departure_airport": {
+      "name": "Baltimore/Washington International Thurgood Marshall Airport",
+      "id": "BWI",
+      "time": "2026-11-14 17:00"
+     },
+     "arrival_airport": {
+      "name": "Orlando International Airport",
+      "id": "MCO",
+      "time": "2026-11-14 19:30"
+     },
+     "duration": 150,
+     "airplane": "Boeing 737MAX 8 Passenger",
+     "airline": "Southwest",
+     "travel_class": "Economy",
+     "flight_number": "WN 1065",
+     "legroom": "31 in",
+     "extensions": [
+      "Average legroom (31 in)",
+      "Free Wi-Fi",
+      "In-seat USB outlet",
+      "Stream media to your device",
+      "Carbon emissions estimate: 115 kg"
+     ]
+    }
+   ],
+   "total_duration": 150,
+   "carbon_emissions": {
+    "this_flight": 116000,
+    "typical_for_this_route": 129000,
+    "difference_percent": -10
+   },
+   "price": 184,
+   "type": "One way",
+   "extensions": [
+    "Checked baggage for a fee"
+   ],
+   "booking_token": "WyJDalJJV0VwVlRVRlhjMVZuV0ZWQlZIcDFWRUZDUnkwdExTMHRMUzB0TFMxMmQzbHFPVUZCUVVGQlIzSkdTVUpGUW5obFNsZEJFZ1pYVGpFd05qVWFDd2pKandFUUFob0RWVk5FT0J4d3lZOEIiLFtbIkJXSSIsIjIwMjYtMTEtMTQiLCJNQ08iLG51bGwsIldOIiwiMTA2NSJdXV0="
+  },
+  {
+   "flights": [
+    {
+     "departure_airport": {
+      "name": "Baltimore/Washington International Thurgood Marshall Airport",
+      "id": "BWI",
+      "time": "2026-11-14 18:00"
+     },
+     "arrival_airport": {
+      "name": "Orlando International Airport",
+      "id": "MCO",
+      "time": "2026-11-14 20:35"
+     },
+     "duration": 155,
+     "airplane": "Boeing 737MAX 8 Passenger",
+     "airline": "Southwest",
+     "travel_class": "Economy",
+     "flight_number": "WN 2362",
+     "legroom": "31 in",
+     "extensions": [
+      "Average legroom (31 in)",
+      "Free Wi-Fi",
+      "In-seat USB outlet",
+      "Stream media to your device",
+      "Carbon emissions estimate: 115 kg"
+     ]
+    }
+   ],
+   "total_duration": 155,
+   "carbon_emissions": {
+    "this_flight": 116000,
+    "typical_for_this_route": 129000,
+    "difference_percent": -10
+   },
+   "price": 184,
+   "type": "One way",
+   "extensions": [
+    "Checked baggage for a fee"
+   ],
+   "booking_token": "WyJDalJJV0VwVlRVRlhjMVZuV0ZWQlZIcDFWRUZDUnkwdExTMHRMUzB0TFMxMmQzbHFPVUZCUVVGQlIzSkdTVUpGUW5obFNsZEJFZ1pYVGpJek5qSWFDd2pKandFUUFob0RWVk5FT0J4d3lZOEIiLFtbIkJXSSIsIjIwMjYtMTEtMTQiLCJNQ08iLG51bGwsIldOIiwiMjM2MiJdXV0="
+  },
+  {
+   "flights": [
+    {
+     "departure_airport": {
+      "name": "Ronald Reagan Washington National Airport",
+      "id": "DCA",
+      "time": "2026-11-14 08:20"
+     },
+     "arrival_airport": {
+      "name": "Orlando International Airport",
+      "id": "MCO",
+      "time": "2026-11-14 11:00"
+     },
+     "duration": 160,
+     "airplane": "Boeing 737",
+     "airline": "American",
+     "travel_class": "Economy",
+     "flight_number": "AA 646",
+     "legroom": "30 in",
+     "extensions": [
+      "Average legroom (30 in)",
+      "Free Wi-Fi",
+      "In-seat power & USB outlets",
+      "Stream media to your device",
+      "Carbon emissions estimate: 124 kg"
+     ]
+    }
+   ],
+   "total_duration": 160,
+   "carbon_emissions": {
+    "this_flight": 124000,
+    "typical_for_this_route": 129000,
+    "difference_percent": -4
+   },
+   "price": 190,
+   "type": "One way",
+   "extensions": [
+    "Checked baggage for a fee"
+   ],
+   "booking_token": "WyJDalJJV0VwVlRVRlhjMVZuV0ZWQlZIcDFWRUZDUnkwdExTMHRMUzB0TFMxMmQzbHFPVUZCUVVGQlIzSkdTVUpGUW5obFNsZEJFZ1ZCUVRZME5ob0xDUHlUQVJBQ0dnTlZVMFE0SEhEOGt3RT0iLFtbIkRDQSIsIjIwMjYtMTEtMTQiLCJNQ08iLG51bGwsIkFBIiwiNjQ2Il1dXQ=="
+  },
+  {
+   "flights": [
+    {
+     "departure_airport": {
+      "name": "Ronald Reagan Washington National Airport",
+      "id": "DCA",
+      "time": "2026-11-14 13:59"
+     },
+     "arrival_airport": {
+      "name": "Orlando International Airport",
+      "id": "MCO",
+      "time": "2026-11-14 16:35"
+     },
+     "duration": 156,
+     "airplane": "Airbus A319",
+     "airline": "American",
+     "travel_class": "Economy",
+     "flight_number": "AA 1165",
+     "legroom": "30 in",
+     "extensions": [
+      "Average legroom (30 in)",
+      "Free Wi-Fi",
+      "In-seat power outlet",
+      "Stream media to your device",
+      "Carbon emissions estimate: 147 kg"
+     ]
+    }
+   ],
+   "total_duration": 156,
+   "carbon_emissions": {
+    "this_flight": 148000,
+    "typical_for_this_route": 129000,
+    "difference_percent": 15
+   },
+   "price": 190,
+   "type": "One way",
+   "extensions": [
+    "Checked baggage for a fee"
+   ],
+   "booking_token": "WyJDalJJV0VwVlRVRlhjMVZuV0ZWQlZIcDFWRUZDUnkwdExTMHRMUzB0TFMxMmQzbHFPVUZCUVVGQlIzSkdTVUpGUW5obFNsZEJFZ1pCUVRFeE5qVWFDd2o4a3dFUUFob0RWVk5FT0J4dy9KTUIiLFtbIkRDQSIsIjIwMjYtMTEtMTQiLCJNQ08iLG51bGwsIkFBIiwiMTE2NSJdXV0="
+  },
+  {
+   "flights": [
+    {
+     "departure_airport": {
+      "name": "Ronald Reagan Washington National Airport",
+      "id": "DCA",
+      "time": "2026-11-14 06:00"
+     },
+     "arrival_airport": {
+      "name": "Orlando International Airport",
+      "id": "MCO",
+      "time": "2026-11-14 08:30"
+     },
+     "duration": 150,
+     "airplane": "Boeing 737-700 (Scimitar Winglets) Pax",
+     "airline": "Southwest",
+     "travel_class": "Economy",
+     "flight_number": "WN 1167",
+     "legroom": "31 in",
+     "extensions": [
+      "Average legroom (31 in)",
+      "Free Wi-Fi",
+      "Stream media to your device",
+      "Carbon emissions estimate: 135 kg"
+     ]
+    }
+   ],
+   "total_duration": 150,
+   "carbon_emissions": {
+    "this_flight": 136000,
+    "typical_for_this_route": 129000,
+    "difference_percent": 5
+   },
+   "price": 199,
+   "type": "One way",
+   "extensions": [
+    "Checked baggage for a fee"
+   ],
+   "booking_token": "WyJDalJJV0VwVlRVRlhjMVZuV0ZWQlZIcDFWRUZDUnkwdExTMHRMUzB0TFMxMmQzbHFPVUZCUVVGQlIzSkdTVUpGUW5obFNsZEJFZ1pYVGpFeE5qY2FDd2lBbXdFUUFob0RWVk5FT0J4d2dKc0IiLFtbIkRDQSIsIjIwMjYtMTEtMTQiLCJNQ08iLG51bGwsIldOIiwiMTE2NyJdXV0="
+  },
+  {
+   "flights": [
+    {
+     "departure_airport": {
+      "name": "Ronald Reagan Washington National Airport",
+      "id": "DCA",
+      "time": "2026-11-14 10:19"
+     },
+     "arrival_airport": {
+      "name": "Orlando International Airport",
+      "id": "MCO",
+      "time": "2026-11-14 12:54"
+     },
+     "duration": 155,
+     "airplane": "Airbus A319",
+     "airline": "American",
+     "travel_class": "Economy",
+     "flight_number": "AA 1628",
+     "legroom": "30 in",
+     "extensions": [
+      "Average legroom (30 in)",
+      "Free Wi-Fi",
+      "In-seat power outlet",
+      "Stream media to your device",
+      "Carbon emissions estimate: 147 kg"
+     ]
+    }
+   ],
+   "total_duration": 155,
+   "carbon_emissions": {
+    "this_flight": 148000,
+    "typical_for_this_route": 129000,
+    "difference_percent": 15
+   },
+   "price": 239,
+   "type": "One way",
+   "extensions": [
+    "Checked baggage for a fee"
+   ],
+   "booking_token": "WyJDalJJV0VwVlRVRlhjMVZuV0ZWQlZIcDFWRUZDUnkwdExTMHRMUzB0TFMxMmQzbHFPVUZCUVVGQlIzSkdTVUpGUW5obFNsZEJFZ1pCUVRFMk1qZ2FDd2lndWdFUUFob0RWVk5FT0J4d29Mb0IiLFtbIkRDQSIsIjIwMjYtMTEtMTQiLCJNQ08iLG51bGwsIkFBIiwiMTYyOCJdXV0="
+  },
+  {
+   "flights": [
+    {
+     "departure_airport": {
+      "name": "Dulles International Airport",
+      "id": "IAD",
+      "time": "2026-11-14 08:15"
+     },
+     "arrival_airport": {
+      "name": "Orlando International Airport",
+      "id": "MCO",
+      "time": "2026-11-14 10:44"
+     },
+     "duration": 149,
+     "airplane": "Boeing 737MAX 9 Passenger",
+     "airline": "United",
+     "travel_class": "Economy",
+     "flight_number": "UA 379",
+     "legroom": "30 in",
+     "extensions": [
+      "Average legroom (30 in)",
+      "Wi-Fi for a fee",
+      "In-seat power outlet",
+      "Stream media to your device",
+      "Carbon emissions estimate: 97 kg"
+     ]
+    }
+   ],
+   "total_duration": 149,
+   "carbon_emissions": {
+    "this_flight": 97000,
+    "typical_for_this_route": 129000,
+    "difference_percent": -25
+   },
+   "price": 240,
+   "type": "One way",
+   "extensions": [
+    "Checked baggage for a fee"
+   ],
+   "booking_token": "WyJDalJJV0VwVlRVRlhjMVZuV0ZWQlZIcDFWRUZDUnkwdExTMHRMUzB0TFMxMmQzbHFPVUZCUVVGQlIzSkdTVUpGUW5obFNsZEJFZ1ZWUVRNM09Sb0xDUCs2QVJBQ0dnTlZVMFE0SEhEL3VnRT0iLFtbIklBRCIsIjIwMjYtMTEtMTQiLCJNQ08iLG51bGwsIlVBIiwiMzc5Il1dXQ=="
+  },
+  {
+   "flights": [
+    {
+     "departure_airport": {
+      "name": "Dulles International Airport",
+      "id": "IAD",
+      "time": "2026-11-14 09:52"
+     },
+     "arrival_airport": {
+      "name": "Orlando International Airport",
+      "id": "MCO",
+      "time": "2026-11-14 12:23"
+     },
+     "duration": 151,
+     "airplane": "Boeing 737",
+     "airline": "United",
+     "travel_class": "Economy",
+     "flight_number": "UA 2634",
+     "legroom": "30 in",
+     "extensions": [
+      "Average legroom (30 in)",
+      "Wi-Fi for a fee",
+      "In-seat power outlet",
+      "Stream media to your device",
+      "Carbon emissions estimate: 116 kg"
+     ]
+    }
+   ],
+   "total_duration": 151,
+   "carbon_emissions": {
+    "this_flight": 116000,
+    "typical_for_this_route": 129000,
+    "difference_percent": -10
+   },
+   "price": 240,
+   "type": "One way",
+   "extensions": [
+    "Checked baggage for a fee"
+   ],
+   "booking_token": "WyJDalJJV0VwVlRVRlhjMVZuV0ZWQlZIcDFWRUZDUnkwdExTMHRMUzB0TFMxMmQzbHFPVUZCUVVGQlIzSkdTVUpGUW5obFNsZEJFZ1pWUVRJMk16UWFDd2ovdWdFUUFob0RWVk5FT0J4dy83b0IiLFtbIklBRCIsIjIwMjYtMTEtMTQiLCJNQ08iLG51bGwsIlVBIiwiMjYzNCJdXV0="
+  },
+  {
+   "flights": [
+    {
+     "departure_airport": {
+      "name": "Baltimore/Washington International Thurgood Marshall Airport",
+      "id": "BWI",
+      "time": "2026-11-14 06:15"
+     },
+     "arrival_airport": {
+      "name": "Orlando International Airport",
+      "id": "MCO",
+      "time": "2026-11-14 08:50"
+     },
+     "duration": 155,
+     "airplane": "Boeing 737",
+     "airline": "Southwest",
+     "travel_class": "Economy",
+     "flight_number": "WN 1056",
+     "legroom": "31 in",
+     "extensions": [
+      "Average legroom (31 in)",
+      "Free Wi-Fi",
+      "In-seat USB outlet",
+      "Stream media to your device",
+      "Carbon emissions estimate: 131 kg"
+     ]
+    }
+   ],
+   "total_duration": 155,
+   "carbon_emissions": {
+    "this_flight": 132000,
+    "typical_for_this_route": 129000,
+    "difference_percent": 2
+   },
+   "price": 260,
+   "type": "One way",
+   "extensions": [
+    "Checked baggage for a fee"
+   ],
+   "booking_token": "WyJDalJJV0VwVlRVRlhjMVZuV0ZWQlZIcDFWRUZDUnkwdExTMHRMUzB0TFMxMmQzbHFPVUZCUVVGQlIzSkdTVUpGUW5obFNsZEJFZ1pYVGpFd05UWWFDd2pVeWdFUUFob0RWVk5FT0J4dzFNb0IiLFtbIkJXSSIsIjIwMjYtMTEtMTQiLCJNQ08iLG51bGwsIldOIiwiMTA1NiJdXV0="
+  },
+  {
+   "flights": [
+    {
+     "departure_airport": {
+      "name": "Baltimore/Washington International Thurgood Marshall Airport",
+      "id": "BWI",
+      "time": "2026-11-14 07:05"
+     },
+     "arrival_airport": {
+      "name": "Orlando International Airport",
+      "id": "MCO",
+      "time": "2026-11-14 09:35"
+     },
+     "duration": 150,
+     "airplane": "Boeing 737MAX 8 Passenger",
+     "airline": "Southwest",
+     "travel_class": "Economy",
+     "flight_number": "WN 2391",
+     "legroom": "31 in",
+     "extensions": [
+      "Average legroom (31 in)",
+      "Free Wi-Fi",
+      "In-seat USB outlet",
+      "Stream media to your device",
+      "Carbon emissions estimate: 115 kg"
+     ]
+    }
+   ],
+   "total_duration": 150,
+   "carbon_emissions": {
+    "this_flight": 116000,
+    "typical_for_this_route": 129000,
+    "difference_percent": -10
+   },
+   "price": 260,
+   "type": "One way",
+   "extensions": [
+    "Checked baggage for a fee"
+   ],
+   "booking_token": "WyJDalJJV0VwVlRVRlhjMVZuV0ZWQlZIcDFWRUZDUnkwdExTMHRMUzB0TFMxMmQzbHFPVUZCUVVGQlIzSkdTVUpGUW5obFNsZEJFZ1pYVGpJek9URWFDd2pVeWdFUUFob0RWVk5FT0J4dzFNb0IiLFtbIkJXSSIsIjIwMjYtMTEtMTQiLCJNQ08iLG51bGwsIldOIiwiMjM5MSJdXV0="
+  },
+  {
+   "flights": [
+    {
+     "departure_airport": {
+      "name": "Baltimore/Washington International Thurgood Marshall Airport",
+      "id": "BWI",
+      "time": "2026-11-14 08:35"
+     },
+     "arrival_airport": {
+      "name": "Orlando International Airport",
+      "id": "MCO",
+      "time": "2026-11-14 11:05"
+     },
+     "duration": 150,
+     "airplane": "Boeing 737-700 (Scimitar Winglets) Pax",
+     "airline": "Southwest",
+     "travel_class": "Economy",
+     "flight_number": "WN 161",
+     "legroom": "31 in",
+     "extensions": [
+      "Average legroom (31 in)",
+      "Free Wi-Fi",
+      "Stream media to your device",
+      "Carbon emissions estimate: 152 kg"
+     ]
+    }
+   ],
+   "total_duration": 150,
+   "carbon_emissions": {
+    "this_flight": 152000,
+    "typical_for_this_route": 129000,
+    "difference_percent": 18
+   },
+   "price": 260,
+   "type": "One way",
+   "extensions": [
+    "Checked baggage for a fee"
+   ],
+   "booking_token": "WyJDalJJV0VwVlRVRlhjMVZuV0ZWQlZIcDFWRUZDUnkwdExTMHRMUzB0TFMxMmQzbHFPVUZCUVVGQlIzSkdTVUpGUW5obFNsZEJFZ1ZYVGpFMk1Sb0xDTlRLQVJBQ0dnTlZVMFE0SEhEVXlnRT0iLFtbIkJXSSIsIjIwMjYtMTEtMTQiLCJNQ08iLG51bGwsIldOIiwiMTYxIl1dXQ=="
+  },
+  {
+   "flights": [
+    {
+     "departure_airport": {
+      "name": "Baltimore/Washington International Thurgood Marshall Airport",
+      "id": "BWI",
+      "time": "2026-11-14 10:50"
+     },
+     "arrival_airport": {
+      "name": "Orlando International Airport",
+      "id": "MCO",
+      "time": "2026-11-14 13:20"
+     },
+     "duration": 150,
+     "airplane": "Boeing 737",
+     "airline": "Southwest",
+     "travel_class": "Economy",
+     "flight_number": "WN 1586",
+     "legroom": "31 in",
+     "extensions": [
+      "Average legroom (31 in)",
+      "Free Wi-Fi",
+      "In-seat USB outlet",
+      "Stream media to your device",
+      "Carbon emissions estimate: 131 kg"
+     ]
+    }
+   ],
+   "total_duration": 150,
+   "carbon_emissions": {
+    "this_flight": 132000,
+    "typical_for_this_route": 129000,
+    "difference_percent": 2
+   },
+   "price": 260,
+   "type": "One way",
+   "extensions": [
+    "Checked baggage for a fee"
+   ],
+   "booking_token": "WyJDalJJV0VwVlRVRlhjMVZuV0ZWQlZIcDFWRUZDUnkwdExTMHRMUzB0TFMxMmQzbHFPVUZCUVVGQlIzSkdTVUpGUW5obFNsZEJFZ1pYVGpFMU9EWWFDd2pVeWdFUUFob0RWVk5FT0J4dzFNb0IiLFtbIkJXSSIsIjIwMjYtMTEtMTQiLCJNQ08iLG51bGwsIldOIiwiMTU4NiJdXV0="
+  },
+  {
+   "flights": [
+    {
+     "departure_airport": {
+      "name": "Baltimore/Washington International Thurgood Marshall Airport",
+      "id": "BWI",
+      "time": "2026-11-14 12:20"
+     },
+     "arrival_airport": {
+      "name": "Orlando International Airport",
+      "id": "MCO",
+      "time": "2026-11-14 14:50"
+     },
+     "duration": 150,
+     "airplane": "Boeing 737-700 (Scimitar Winglets) Pax",
+     "airline": "Southwest",
+     "travel_class": "Economy",
+     "flight_number": "WN 1062",
+     "legroom": "31 in",
+     "extensions": [
+      "Average legroom (31 in)",
+      "Free Wi-Fi",
+      "Stream media to your device",
+      "Carbon emissions estimate: 152 kg"
+     ]
+    }
+   ],
+   "total_duration": 150,
+   "carbon_emissions": {
+    "this_flight": 152000,
+    "typical_for_this_route": 129000,
+    "difference_percent": 18
+   },
+   "price": 260,
+   "type": "One way",
+   "extensions": [
+    "Checked baggage for a fee"
+   ],
+   "booking_token": "WyJDalJJV0VwVlRVRlhjMVZuV0ZWQlZIcDFWRUZDUnkwdExTMHRMUzB0TFMxMmQzbHFPVUZCUVVGQlIzSkdTVUpGUW5obFNsZEJFZ1pYVGpFd05qSWFDd2pVeWdFUUFob0RWVk5FT0J4dzFNb0IiLFtbIkJXSSIsIjIwMjYtMTEtMTQiLCJNQ08iLG51bGwsIldOIiwiMTA2MiJdXV0="
+  },
+  {
+   "flights": [
+    {
+     "departure_airport": {
+      "name": "Baltimore/Washington International Thurgood Marshall Airport",
+      "id": "BWI",
+      "time": "2026-11-14 14:10"
+     },
+     "arrival_airport": {
+      "name": "Orlando International Airport",
+      "id": "MCO",
+      "time": "2026-11-14 16:35"
+     },
+     "duration": 145,
+     "airplane": "Boeing 737-700 (Scimitar Winglets) Pax",
+     "airline": "Southwest",
+     "travel_class": "Economy",
+     "flight_number": "WN 734",
+     "legroom": "31 in",
+     "extensions": [
+      "Average legroom (31 in)",
+      "Free Wi-Fi",
+      "Stream media to your device",
+      "Carbon emissions estimate: 152 kg"
+     ]
+    }
+   ],
+   "total_duration": 145,
+   "carbon_emissions": {
+    "this_flight": 152000,
+    "typical_for_this_route": 129000,
+    "difference_percent": 18
+   },
+   "price": 260,
+   "type": "One way",
+   "extensions": [
+    "Checked baggage for a fee"
+   ],
+   "booking_token": "WyJDalJJV0VwVlRVRlhjMVZuV0ZWQlZIcDFWRUZDUnkwdExTMHRMUzB0TFMxMmQzbHFPVUZCUVVGQlIzSkdTVUpGUW5obFNsZEJFZ1ZYVGpjek5Cb0xDTlRLQVJBQ0dnTlZVMFE0SEhEVXlnRT0iLFtbIkJXSSIsIjIwMjYtMTEtMTQiLCJNQ08iLG51bGwsIldOIiwiNzM0Il1dXQ=="
+  },
+  {
+   "flights": [
+    {
+     "departure_airport": {
+      "name": "Baltimore/Washington International Thurgood Marshall Airport",
+      "id": "BWI",
+      "time": "2026-11-14 09:55"
+     },
+     "arrival_airport": {
+      "name": "Orlando International Airport",
+      "id": "MCO",
+      "time": "2026-11-14 12:25"
+     },
+     "duration": 150,
+     "airplane": "Boeing 737-700 (Scimitar Winglets) Pax",
+     "airline": "Southwest",
+     "travel_class": "Economy",
+     "flight_number": "WN 1703",
+     "legroom": "31 in",
+     "extensions": [
+      "Average legroom (31 in)",
+      "Free Wi-Fi",
+      "Stream media to your device",
+      "Carbon emissions estimate: 152 kg"
+     ]
+    }
+   ],
+   "total_duration": 150,
+   "carbon_emissions": {
+    "this_flight": 152000,
+    "typical_for_this_route": 129000,
+    "difference_percent": 18
+   },
+   "price": 281,
+   "type": "One way",
+   "extensions": [
+    "Checked baggage for a fee"
+   ],
+   "booking_token": "WyJDalJJV0VwVlRVRlhjMVZuV0ZWQlZIcDFWRUZDUnkwdExTMHRMUzB0TFMxMmQzbHFPVUZCUVVGQlIzSkdTVUpGUW5obFNsZEJFZ1pYVGpFM01ETWFDd2lJMndFUUFob0RWVk5FT0J4d2lOc0IiLFtbIkJXSSIsIjIwMjYtMTEtMTQiLCJNQ08iLG51bGwsIldOIiwiMTcwMyJdXV0="
+  }
+ ],
+ "airports": [
+  {
+   "departure": [
+    {
+     "airport": {
+      "id": "BWI",
+      "name": "Baltimore/Washington International Thurgood Marshall Airport"
+     },
+     "city": "Baltimore",
+     "country": "United States",
+     "country_code": "US",
+     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSA2cE9BQYzqehWs630kq2XTx2iRuJ_gtZUJV5U9XTeT0yJU-AZ5CikRMyLn4VaL8WhBenvXPYrcAmJhQ",
+     "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRauNBUOjBBiUdefXAuxf6JhYRG-xgtEf60qriBBzqaKaZUfq9NT8N8FhLk8X8ChrjFmUzNMfgdkfzyw68S689BMqH6iN6ES3-QmfHWG9Y"
+    },
+    {
+     "airport": {
+      "id": "IAD",
+      "name": "Dulles International Airport"
+     },
+     "city": "Washington",
+     "country": "United States",
+     "country_code": "US",
+     "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRG0OK4wTkRsqDVobvhtBOPZMDsUETpgJ7jPzOA--4D-HL-0BVkyp4S9gvw7CBWMKyfFVS0lLRn7pmR-Q",
+     "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRMLLOliMVP16YVOyMBlzc0Gmxx-R5fU2bSGBN2tw9x-6tWr0q5I3bRnaMOot3V_SMDxjwVNjxd3aIlFxHtZL0Yc8rVnZAQAs2upGkhIZ0"
+    },
+    {
+     "airport": {
+      "id": "DCA",
+      "name": "Ronald Reagan Washington National Airport"
+     },
+     "city": "Washington",
+     "country": "United States",
+     "country_code": "US",
+     "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRG0OK4wTkRsqDVobvhtBOPZMDsUETpgJ7jPzOA--4D-HL-0BVkyp4S9gvw7CBWMKyfFVS0lLRn7pmR-Q",
+     "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRMLLOliMVP16YVOyMBlzc0Gmxx-R5fU2bSGBN2tw9x-6tWr0q5I3bRnaMOot3V_SMDxjwVNjxd3aIlFxHtZL0Yc8rVnZAQAs2upGkhIZ0"
+    }
+   ],
+   "arrival": [
+    {
+     "airport": {
+      "id": "MCO",
+      "name": "Orlando International Airport"
+     },
+     "city": "Orlando",
+     "country": "United States",
+     "country_code": "US",
+     "image": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcTe68FxHEGZG4xo_DNsFl5zrheeqgt5sAQr3kkudLKOvebYPaMvTVmfmnzUrY5P0j_vP5ijv-tShBGoT4NWuDirWzP44O4b0EEmh2WsnMg",
+     "thumbnail": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcR0PL1UnKMyHanY7CdNLtDLbTiMMUShmlMIhyM-kAWOaTk40SSHBiNj3ASZoYY0qUtylVqqilsAxGUClaGyDYC_g3W2vkLMArGSO_EyaY4"
+    }
+   ]
+  }
+ ]
+}

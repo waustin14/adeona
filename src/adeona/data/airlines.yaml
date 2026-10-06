@@ -1,0 +1,92 @@
+# Service reference data: airline alliance membership. NOT user configuration.
+# Keyed by IATA marketing code. `names` lists the spellings sources use (Google Flights first);
+# matching ignores case and punctuation.
+#
+# as_of: 2026-10-06. Sources checked that day:
+#   oneworld.com/members (official); Wikipedia "Star Alliance", "SkyTeam", "Oneworld"
+#   (staralliance.com and skyteam.com block automated reads, so re-check those by hand).
+# Update this file when membership changes; tests guard its structure.
+as_of: 2026-10-06
+
+alliances:
+  Star Alliance:
+    A3: [Aegean, Aegean Airlines]
+    AC: [Air Canada]
+    CA: [Air China]
+    AI: [Air India]
+    NZ: [Air New Zealand]
+    NH: [ANA, All Nippon Airways]
+    OS: [Austrian, Austrian Airlines]
+    AV: [Avianca]
+    SN: [Brussels Airlines]
+    CM: [Copa, Copa Airlines]
+    OU: [Croatia Airlines]
+    MS: [EgyptAir]
+    ET: [Ethiopian, Ethiopian Airlines]
+    BR: [EVA Air]
+    AZ: [ITA, ITA Airways]                 # joined 2026-04-01
+    LO: [LOT, LOT Polish Airlines]
+    LH: [Lufthansa]
+    VL: [Lufthansa City, Lufthansa City Airlines]
+    ZH: [Shenzhen Airlines]
+    SQ: [Singapore Airlines]
+    SA: [South African Airways]
+    LX: [SWISS, Swiss International Air Lines]
+    TP: [TAP Air Portugal, Tap Air Portugal]
+    TG: [Thai, Thai Airways, Thai Airways International]
+    TK: [Turkish Airlines]
+    UA: [United, United Airlines]
+    OA: [Olympic Air]                      # affiliate of Aegean
+  oneworld:
+    AS: [Alaska, Alaska Airlines]
+    AA: [American, American Airlines]
+    BA: [British Airways]
+    CX: [Cathay Pacific]
+    FJ: [Fiji Airways]                     # full member 2025-04-01
+    AY: [Finnair]
+    IB: [Iberia]
+    JL: [Japan Airlines, JAL]
+    MH: [Malaysia Airlines]
+    WY: [Oman Air]                         # joined 2025-06-30
+    QF: [Qantas]
+    QR: [Qatar Airways]
+    AT: [Royal Air Maroc]
+    RJ: [Royal Jordanian]
+    UL: [SriLankan, SriLankan Airlines]
+    HA: [Hawaiian, Hawaiian Airlines]      # affiliate since 2026-04-23
+    I2: [Iberia Express]                   # affiliate
+  SkyTeam:
+    AR: [Aerolineas Argentinas, Aerolíneas Argentinas]
+    AM: [Aeromexico, Aeroméxico]
+    UX: [Air Europa]
+    AF: [Air France]
+    CI: [China Airlines]
+    MU: [China Eastern, China Eastern Airlines]
+    DL: [Delta, Delta Air Lines]
+    GA: [Garuda Indonesia]
+    KQ: [Kenya Airways]
+    KL: [KLM]
+    KE: [Korean Air]
+    ME: [Middle East Airlines, MEA]
+    SV: [Saudia]
+    SK: [SAS, Scandinavian Airlines]       # left Star 2024-08-31, joined SkyTeam 2024-09-01
+    RO: [TAROM]
+    VN: [Vietnam Airlines]
+    VS: [Virgin Atlantic]
+    MF: [XiamenAir, Xiamen Airlines]
+
+# Listed by alliances but suspended "until further notice": no partner earning or perks.
+suspended:
+  SU: [Aeroflot]                           # SkyTeam, suspended 2022-04
+  S7: [S7 Airlines]                        # oneworld, suspended 2022-04-19
+
+# Not in any alliance. Listed so profile names (e.g. "Southwest") resolve to a code.
+unaligned:
+  WN: [Southwest, Southwest Airlines]
+  B6: [JetBlue, JetBlue Airways]
+  F9: [Frontier, Frontier Airlines]
+  NK: [Spirit, Spirit Airlines]
+  FI: [Icelandair]
+  G4: [Allegiant, Allegiant Air]
+  EK: [Emirates]
+  EY: [Etihad, Etihad Airways]

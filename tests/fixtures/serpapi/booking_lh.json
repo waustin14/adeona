@@ -1,0 +1,625 @@
+{
+ "_comment": "Real SerpApi response captured 2026-10-06 (booking options for LH 419 IAD-FRA from the iad_fra_long search); trimmed.",
+ "search_parameters": {
+  "engine": "google_flights",
+  "hl": "en",
+  "gl": "us",
+  "type": "2",
+  "departure_id": "IAD",
+  "arrival_id": "FRA",
+  "outbound_date": "2026-11-14",
+  "travel_class": 1,
+  "adults": 1,
+  "stops": 2,
+  "bags": 0,
+  "layover_duration": "480,1440",
+  "booking_token": "WyJDalJJTUhZdFQxaHFZVFIwU3poQldGVTRPVUZDUnkwdExTMHRMUzB0TFhscFltcHZPVUZCUVVGQlIzSkdTVzF2UkU1U1RsRkJFZ1ZNU0RReE9Sb0xDT3J2QkJBQ0dnTlZVMFE0SEhEcTd3UT0iLFtbIklBRCIsIjIwMjYtMTEtMTQiLCJGUkEiLG51bGwsIkxIIiwiNDE5Il1dXQ==",
+  "currency": "USD",
+  "show_hidden": true,
+  "exclude_basic": true
+ },
+ "selected_flights": [
+  {
+   "flights": [
+    {
+     "departure_airport": {
+      "name": "Dulles International Airport",
+      "id": "IAD",
+      "time": "2026-11-14 18:00"
+     },
+     "arrival_airport": {
+      "name": "Frankfurt Airport",
+      "id": "FRA",
+      "time": "2026-11-15 07:40"
+     },
+     "duration": 460,
+     "airplane": "Airbus A350",
+     "airline": "Lufthansa",
+     "travel_class": "Economy",
+     "flight_number": "LH 419",
+     "ticket_also_sold_by": [
+      "United"
+     ],
+     "legroom": "31 in",
+     "extensions": [
+      "Average legroom (31 in)",
+      "Wi-Fi for a fee",
+      "In-seat power & USB outlets",
+      "On-demand video",
+      "Carbon emissions estimate: 387 kg"
+     ],
+     "overnight": true,
+     "often_delayed_by_over_30_min": true
+    }
+   ],
+   "total_duration": 460,
+   "carbon_emissions": {
+    "this_flight": 387000,
+    "typical_for_this_route": 471000,
+    "difference_percent": -18
+   },
+   "type": "One way"
+  }
+ ],
+ "baggage_prices": {
+  "together": [
+   "1 free carry-on"
+  ]
+ },
+ "booking_options": [
+  {
+   "together": {
+    "book_with": "United",
+    "airline": true,
+    "marketed_as": [
+     "UA 8826"
+    ],
+    "price": 799,
+    "baggage_prices": [
+     "1 free carry-on",
+     "1st checked bag: 90"
+    ]
+   }
+  },
+  {
+   "together": {
+    "book_with": "Lufthansa",
+    "airline": true,
+    "marketed_as": [
+     "LH 419"
+    ],
+    "price": 2919,
+    "baggage_prices": [
+     "1 free carry-on",
+     "1st checked bag free"
+    ]
+   }
+  },
+  {
+   "together": {
+    "book_with": "Booking.com",
+    "marketed_as": [
+     "LH 419"
+    ],
+    "price": 792,
+    "baggage_prices": [
+     "1 free carry-on"
+    ]
+   }
+  },
+  {
+   "together": {
+    "book_with": "Expedia",
+    "marketed_as": [
+     "LH 419"
+    ],
+    "price": 799,
+    "baggage_prices": [
+     "1 free carry-on",
+     "1st checked bag: 90"
+    ]
+   }
+  },
+  {
+   "together": {
+    "book_with": "Flightnetwork",
+    "marketed_as": [
+     "LH 419"
+    ],
+    "price": 775,
+    "baggage_prices": [
+     "1 free carry-on"
+    ]
+   }
+  },
+  {
+   "together": {
+    "book_with": "Trip.com",
+    "marketed_as": [
+     "LH 419"
+    ],
+    "price": 812,
+    "baggage_prices": [
+     "1 free carry-on"
+    ]
+   }
+  },
+  {
+   "together": {
+    "book_with": "Gotogate",
+    "marketed_as": [
+     "LH 419"
+    ],
+    "price": 775,
+    "baggage_prices": [
+     "1 free carry-on"
+    ]
+   }
+  },
+  {
+   "together": {
+    "book_with": "Mytrip",
+    "marketed_as": [
+     "LH 419"
+    ],
+    "price": 775,
+    "baggage_prices": [
+     "1 free carry-on"
+    ]
+   }
+  },
+  {
+   "together": {
+    "book_with": "BudgetAir",
+    "marketed_as": [
+     "LH 419"
+    ],
+    "price": 784,
+    "baggage_prices": [
+     "1 free carry-on"
+    ]
+   }
+  },
+  {
+   "together": {
+    "book_with": "Kiwi.com",
+    "marketed_as": [
+     "LH 419"
+    ],
+    "price": 794,
+    "baggage_prices": [
+     "1 free carry-on"
+    ]
+   }
+  },
+  {
+   "together": {
+    "book_with": "FlightHub",
+    "marketed_as": [
+     "LH 419"
+    ],
+    "price": 819,
+    "baggage_prices": [
+     "1 free carry-on"
+    ]
+   }
+  },
+  {
+   "together": {
+    "book_with": "eDreams",
+    "marketed_as": [
+     "LH 419"
+    ],
+    "price": 809,
+    "baggage_prices": [
+     "1 free carry-on"
+    ]
+   }
+  },
+  {
+   "together": {
+    "book_with": "CheapOair",
+    "marketed_as": [
+     "LH 419"
+    ],
+    "price": 826,
+    "baggage_prices": [
+     "1 free carry-on",
+     "1st checked bag: 90"
+    ]
+   }
+  },
+  {
+   "together": {
+    "book_with": "Orbitz",
+    "marketed_as": [
+     "LH 419"
+    ],
+    "price": 818,
+    "baggage_prices": [
+     "1 free carry-on"
+    ]
+   }
+  },
+  {
+   "together": {
+    "book_with": "Justfly.com",
+    "marketed_as": [
+     "LH 419"
+    ],
+    "price": 819,
+    "baggage_prices": [
+     "1 free carry-on"
+    ]
+   }
+  },
+  {
+   "together": {
+    "book_with": "ly.com",
+    "marketed_as": [
+     "LH 419"
+    ],
+    "price": 839,
+    "baggage_prices": [
+     "1 free carry-on"
+    ]
+   }
+  },
+  {
+   "together": {
+    "book_with": "kiss&fly",
+    "marketed_as": [
+     "LH 419"
+    ],
+    "price": 881,
+    "baggage_prices": [
+     "1 free carry-on"
+    ]
+   }
+  },
+  {
+   "together": {
+    "book_with": "Travelocity",
+    "marketed_as": [
+     "LH 419"
+    ],
+    "price": 818,
+    "baggage_prices": [
+     "1 free carry-on"
+    ]
+   }
+  },
+  {
+   "together": {
+    "book_with": "wego",
+    "marketed_as": [
+     "LH 419"
+    ],
+    "price": 2946,
+    "baggage_prices": [
+     "1 free carry-on",
+     "1st checked bag free"
+    ]
+   }
+  },
+  {
+   "together": {
+    "book_with": "OneTravel",
+    "marketed_as": [
+     "LH 419"
+    ],
+    "price": 2946,
+    "baggage_prices": [
+     "1 free carry-on",
+     "1st checked bag free"
+    ]
+   }
+  },
+  {
+   "together": {
+    "book_with": "Ovago",
+    "marketed_as": [
+     "LH 419"
+    ],
+    "price": 2781,
+    "baggage_prices": [
+     "1 free carry-on",
+     "1st checked bag free"
+    ]
+   }
+  },
+  {
+   "together": {
+    "book_with": "Flights Travel",
+    "marketed_as": [
+     "LH 419"
+    ],
+    "price": 6766,
+    "baggage_prices": [
+     "1 free carry-on",
+     "2 free checked bags"
+    ]
+   }
+  },
+  {
+   "together": {
+    "book_with": "business-class.com",
+    "marketed_as": [
+     "LH 419"
+    ],
+    "price": 5868,
+    "baggage_prices": [
+     "1 free carry-on",
+     "2 free checked bags"
+    ]
+   }
+  },
+  {
+   "together": {
+    "book_with": "AranGrant",
+    "marketed_as": [
+     "LH 419"
+    ],
+    "price": 2778,
+    "baggage_prices": [
+     "1 free carry-on",
+     "1st checked bag free"
+    ]
+   }
+  }
+ ],
+ "price_insights": {
+  "lowest_price": 775,
+  "price_level": "low",
+  "typical_price_range": [
+   860,
+   1650
+  ],
+  "price_history": [
+   [
+    1785988800,
+    655
+   ],
+   [
+    1786075200,
+    655
+   ],
+   [
+    1786161600,
+    655
+   ],
+   [
+    1786248000,
+    655
+   ],
+   [
+    1786334400,
+    655
+   ],
+   [
+    1786420800,
+    655
+   ],
+   [
+    1786507200,
+    655
+   ],
+   [
+    1786593600,
+    655
+   ],
+   [
+    1786680000,
+    655
+   ],
+   [
+    1786766400,
+    655
+   ],
+   [
+    1786852800,
+    655
+   ],
+   [
+    1786939200,
+    655
+   ],
+   [
+    1787025600,
+    655
+   ],
+   [
+    1787112000,
+    655
+   ],
+   [
+    1787198400,
+    655
+   ],
+   [
+    1787284800,
+    655
+   ],
+   [
+    1787371200,
+    655
+   ],
+   [
+    1787457600,
+    655
+   ],
+   [
+    1787544000,
+    655
+   ],
+   [
+    1787630400,
+    655
+   ],
+   [
+    1787716800,
+    655
+   ],
+   [
+    1787803200,
+    725
+   ],
+   [
+    1787889600,
+    725
+   ],
+   [
+    1787976000,
+    775
+   ],
+   [
+    1788062400,
+    775
+   ],
+   [
+    1788148800,
+    775
+   ],
+   [
+    1788235200,
+    775
+   ],
+   [
+    1788321600,
+    775
+   ],
+   [
+    1788408000,
+    775
+   ],
+   [
+    1788494400,
+    775
+   ],
+   [
+    1788580800,
+    775
+   ],
+   [
+    1788667200,
+    775
+   ],
+   [
+    1788753600,
+    775
+   ],
+   [
+    1788840000,
+    775
+   ],
+   [
+    1788926400,
+    775
+   ],
+   [
+    1789012800,
+    775
+   ],
+   [
+    1789099200,
+    775
+   ],
+   [
+    1789185600,
+    775
+   ],
+   [
+    1789272000,
+    775
+   ],
+   [
+    1789358400,
+    775
+   ],
+   [
+    1789444800,
+    775
+   ],
+   [
+    1789531200,
+    775
+   ],
+   [
+    1789617600,
+    775
+   ],
+   [
+    1789704000,
+    775
+   ],
+   [
+    1789790400,
+    775
+   ],
+   [
+    1789876800,
+    775
+   ],
+   [
+    1789963200,
+    775
+   ],
+   [
+    1790049600,
+    775
+   ],
+   [
+    1790136000,
+    775
+   ],
+   [
+    1790222400,
+    775
+   ],
+   [
+    1790308800,
+    775
+   ],
+   [
+    1790395200,
+    775
+   ],
+   [
+    1790481600,
+    775
+   ],
+   [
+    1790568000,
+    775
+   ],
+   [
+    1790654400,
+    775
+   ],
+   [
+    1790740800,
+    775
+   ],
+   [
+    1790827200,
+    775
+   ],
+   [
+    1790913600,
+    799
+   ],
+   [
+    1791000000,
+    799
+   ],
+   [
+    1791086400,
+    799
+   ],
+   [
+    1791172800,
+    799
+   ]
+  ]
+ }
+}

@@ -1,0 +1,79 @@
+# Every number here is an ASSUMPTION or a researched figure that can go stale.
+# Tags:  [SRC <date>]  = checked against a public source on that date (still re-verify)
+#        [ASSUMPTION]  = my placeholder; tune it
+#        [PREFERENCE]  = your own valuation, not a fact
+# All figures USD, one passenger, one direction.
+
+# Airline miles/points are earned on base fare + carrier surcharges, not government taxes.
+# Our sources give only the total price, so we estimate the earnable part.
+earnable_fraction_of_price: 0.85     # [ASSUMPTION] ~15% of a US domestic fare is taxes/fees
+
+earn:
+  United:
+    # MileagePlus is revenue-based: 5 miles/$ for general members.
+    per_dollar_by_brand: {default: 5}            # [SRC 2026-10-06 NerdWallet]
+    status_bonus_pct:
+      "MileagePlus Silver": 40                   # Premier Silver = 7 miles/$ [SRC 2026-10-06 NerdWallet]
+      "MileagePlus Gold": 60                     # [ASSUMPTION, VERIFY] 8 miles/$
+      "MileagePlus Platinum": 80                 # [ASSUMPTION, VERIFY] 9 miles/$
+      "MileagePlus 1K": 120                      # [ASSUMPTION, VERIFY] 11 miles/$
+  Southwest:
+    # Rapid Rewards earn per $ by fare bundle (post-May-2025 fare names).
+    per_dollar_by_brand:                         # [SRC 2026-10-06 secondary sources, VERIFY on southwest.com]
+      Basic: 2
+      Choice: 6
+      "Choice Preferred": 10
+      "Choice Extra": 14
+      default: 6
+    status_bonus_pct:
+      "A-List": 25                               # [SRC 2026-10-06, VERIFY]
+      "A-List Preferred": 100                    # [SRC 2026-10-06, VERIFY]
+
+# Partner flights crediting to your program within an alliance.
+# Real United partner earning is distance x fare-class %, which needs booking codes and
+# great-circle distance we don't have yet. This flat per-$ rate is a stand-in.
+partner_earn_per_dollar:
+  United: 5                                      # [ASSUMPTION] stand-in for distance-based earning
+
+# $ value you put on soft status perks when flying that airline.
+status_perks:
+  United:
+    "MileagePlus Silver": {priority_boarding: 5, upgrade_odds: 10, lounge: 0}   # [PREFERENCE]
+  Southwest:
+    "A-List Preferred":   {priority_boarding: 10, upgrade_odds: 0, lounge: 0}   # [PREFERENCE] WN has no lounges
+
+fees:
+  United:
+    first_checked_bag: 40          # [ASSUMPTION, VERIFY] $35 prepaid online / $40 at airport (2024 schedule)
+    second_checked_bag: 50         # [ASSUMPTION, VERIFY]
+    seat_selection_basic: 20       # [ASSUMPTION]
+    status_free_bags:
+      "MileagePlus Silver": 1      # Premier Silver: 1 free checked bag [SRC 2026-10-06 NerdWallet]
+    companion_free_bags:
+      "MileagePlus Silver": 1      # extends to companions on the same reservation [SRC 2026-10-06 secondary
+                                   # sources disagree on the cap (8 vs 9 companions); VERIFY on united.com]
+  Southwest:
+    first_checked_bag: 45          # [SRC 2026-10-06 Google Flights booking options, live] (was a $35 guess)
+    second_checked_bag: 55         # [ASSUMPTION, VERIFY] not shown by Google; guess = 1st + $10
+    seat_selection_basic: 20       # [ASSUMPTION] assigned seating; Basic pays to choose
+    status_free_bags:
+      "A-List": 1                  # [SRC 2026-10-06, VERIFY]
+      "A-List Preferred": 2        # [SRC 2026-10-06 AwardWallet]
+    # companion_free_bags: none. Could not confirm A-List / A-List Preferred bag benefits
+    # extend to companions (2026-10-06), so companions pay unless they have their own waiver.
+default_fees:                      # any airline not listed above
+  first_checked_bag: 40            # [ASSUMPTION]
+  second_checked_bag: 50           # [ASSUMPTION]
+  seat_selection_basic: 20         # [ASSUMPTION]
+
+layover_penalties:                 # [PREFERENCE] all tunable
+  short_connection_under_min: 75   # connections shorter than this (but >= hard minimum) get penalized
+  short_connection: 40
+  overnight: 150
+  airport_change: 100
+
+# $ per red-eye flight segment (the flight itself runs overnight; set by the source).
+red_eye_penalty: 0                 # [PREFERENCE] 0 = don't penalize; spec doesn't mention red-eyes
+
+# Layover and red-eye penalties for a party: false = once per trip, true = once per traveler.
+penalties_per_traveler: false      # [PREFERENCE]

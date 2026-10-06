@@ -1,0 +1,504 @@
+{
+ "_comment": "Real SerpApi google_flights response captured 2026-10-06, trimmed (logos, click URLs, metadata removed).",
+ "search_parameters": {
+  "engine": "google_flights",
+  "hl": "en",
+  "gl": "us",
+  "type": "2",
+  "departure_id": "BWI,IAD,DCA",
+  "arrival_id": "MCO",
+  "outbound_date": "2026-11-14",
+  "booking_token": "WyJDalJJV0VwVlRVRlhjMVZuV0ZWQlZIcDFWRUZDUnkwdExTMHRMUzB0TFMxMmQzbHFPVUZCUVVGQlIzSkdTVUpGUW5obFNsZEJFZ1pHT1RRek5UVWFDZ2pxUUJBQ0dnTlZVMFE0SEhEcVFBPT0iLFtbIklBRCIsIjIwMjYtMTEtMTQiLCJNQ08iLG51bGwsIkY5IiwiNDM1NSJdXV0=",
+  "currency": "USD"
+ },
+ "selected_flights": [
+  {
+   "flights": [
+    {
+     "departure_airport": {
+      "name": "Dulles International Airport",
+      "id": "IAD",
+      "time": "2026-11-14 11:16"
+     },
+     "arrival_airport": {
+      "name": "Orlando International Airport",
+      "id": "MCO",
+      "time": "2026-11-14 13:49"
+     },
+     "duration": 153,
+     "airplane": "Airbus A320neo",
+     "airline": "Frontier",
+     "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/F9.png",
+     "travel_class": "Economy",
+     "flight_number": "F9 4355",
+     "legroom": "28 in",
+     "extensions": [
+      "Below average legroom (28 in)",
+      "Carbon emissions estimate: 100 kg"
+     ]
+    }
+   ],
+   "total_duration": 153,
+   "carbon_emissions": {
+    "this_flight": 101000,
+    "typical_for_this_route": 129000,
+    "difference_percent": -22
+   },
+   "type": "One way",
+   "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/F9.png"
+  }
+ ],
+ "booking_options": [
+  {
+   "together": {
+    "book_with": "Frontier",
+    "airline": true,
+    "marketed_as": [
+     "F9 4355"
+    ],
+    "price": 54,
+    "option_title": "Basic Fare",
+    "extensions": [
+     "Seat selection for a fee",
+     "Ticket changes for a fee",
+     "No refunds"
+    ]
+   }
+  },
+  {
+   "together": {
+    "book_with": "Frontier",
+    "airline": true,
+    "marketed_as": [
+     "F9 4355"
+    ],
+    "price": 83,
+    "option_title": "Economy Bundle",
+    "extensions": [
+     "Free seat selection",
+     "Free change, possible fare difference"
+    ],
+    "baggage_prices": [
+     "1 free carry-on"
+    ]
+   }
+  },
+  {
+   "together": {
+    "book_with": "eDreams",
+    "marketed_as": [
+     "F9 4355"
+    ],
+    "price": 50
+   }
+  },
+  {
+   "together": {
+    "book_with": "Booking.com",
+    "marketed_as": [
+     "F9 4355"
+    ],
+    "price": 54
+   }
+  },
+  {
+   "together": {
+    "book_with": "Expedia",
+    "marketed_as": [
+     "F9 4355"
+    ],
+    "price": 54,
+    "baggage_prices": [
+     "No carry-on bags",
+     "No checked bags"
+    ]
+   }
+  },
+  {
+   "together": {
+    "book_with": "Trip.com",
+    "marketed_as": [
+     "F9 4355"
+    ],
+    "price": 55
+   }
+  },
+  {
+   "together": {
+    "book_with": "ly.com",
+    "marketed_as": [
+     "F9 4355"
+    ],
+    "price": 53
+   }
+  },
+  {
+   "together": {
+    "book_with": "CheapOair",
+    "marketed_as": [
+     "F9 4355"
+    ],
+    "price": 53
+   }
+  },
+  {
+   "together": {
+    "book_with": "Priceline",
+    "marketed_as": [
+     "F9 4355"
+    ],
+    "price": 54
+   }
+  },
+  {
+   "together": {
+    "book_with": "Teaflight",
+    "marketed_as": [
+     "F9 4355"
+    ],
+    "price": 53,
+    "baggage_prices": [
+     "1 free carry-on"
+    ]
+   }
+  },
+  {
+   "together": {
+    "book_with": "BudgetAir",
+    "marketed_as": [
+     "F9 4355"
+    ],
+    "price": 53
+   }
+  },
+  {
+   "together": {
+    "book_with": "FlightHub",
+    "marketed_as": [
+     "F9 4355"
+    ],
+    "price": 64
+   }
+  },
+  {
+   "together": {
+    "book_with": "Alitrip",
+    "marketed_as": [
+     "F9 4355"
+    ],
+    "price": 56,
+    "baggage_prices": [
+     "1 free carry-on"
+    ]
+   }
+  },
+  {
+   "together": {
+    "book_with": "Gotogate",
+    "marketed_as": [
+     "F9 4355"
+    ],
+    "price": 60
+   }
+  },
+  {
+   "together": {
+    "book_with": "Mytrip",
+    "marketed_as": [
+     "F9 4355"
+    ],
+    "price": 60
+   }
+  },
+  {
+   "together": {
+    "book_with": "Kiwi.com",
+    "marketed_as": [
+     "F9 4355"
+    ],
+    "price": 64
+   }
+  },
+  {
+   "together": {
+    "book_with": "Travelocity",
+    "marketed_as": [
+     "F9 4355"
+    ],
+    "price": 113
+   }
+  },
+  {
+   "together": {
+    "book_with": "Flightnetwork",
+    "marketed_as": [
+     "F9 4355"
+    ],
+    "price": 60
+   }
+  },
+  {
+   "together": {
+    "book_with": "kiss&fly",
+    "marketed_as": [
+     "F9 4355"
+    ],
+    "price": 135
+   }
+  }
+ ],
+ "price_insights": {
+  "lowest_price": 50,
+  "price_level": "typical",
+  "typical_price_range": [
+   35,
+   155
+  ],
+  "price_history": [
+   [
+    1785988800,
+    74
+   ],
+   [
+    1786075200,
+    74
+   ],
+   [
+    1786161600,
+    74
+   ],
+   [
+    1786248000,
+    74
+   ],
+   [
+    1786334400,
+    74
+   ],
+   [
+    1786420800,
+    74
+   ],
+   [
+    1786507200,
+    75
+   ],
+   [
+    1786593600,
+    47
+   ],
+   [
+    1786680000,
+    47
+   ],
+   [
+    1786766400,
+    47
+   ],
+   [
+    1786852800,
+    74
+   ],
+   [
+    1786939200,
+    74
+   ],
+   [
+    1787025600,
+    74
+   ],
+   [
+    1787112000,
+    74
+   ],
+   [
+    1787198400,
+    74
+   ],
+   [
+    1787284800,
+    74
+   ],
+   [
+    1787371200,
+    74
+   ],
+   [
+    1787457600,
+    74
+   ],
+   [
+    1787544000,
+    74
+   ],
+   [
+    1787630400,
+    74
+   ],
+   [
+    1787716800,
+    74
+   ],
+   [
+    1787803200,
+    74
+   ],
+   [
+    1787889600,
+    74
+   ],
+   [
+    1787976000,
+    97
+   ],
+   [
+    1788062400,
+    97
+   ],
+   [
+    1788148800,
+    97
+   ],
+   [
+    1788235200,
+    74
+   ],
+   [
+    1788321600,
+    74
+   ],
+   [
+    1788408000,
+    74
+   ],
+   [
+    1788494400,
+    74
+   ],
+   [
+    1788580800,
+    74
+   ],
+   [
+    1788667200,
+    84
+   ],
+   [
+    1788753600,
+    84
+   ],
+   [
+    1788840000,
+    74
+   ],
+   [
+    1788926400,
+    28
+   ],
+   [
+    1789012800,
+    28
+   ],
+   [
+    1789099200,
+    28
+   ],
+   [
+    1789185600,
+    29
+   ],
+   [
+    1789272000,
+    54
+   ],
+   [
+    1789358400,
+    54
+   ],
+   [
+    1789444800,
+    54
+   ],
+   [
+    1789531200,
+    27
+   ],
+   [
+    1789617600,
+    27
+   ],
+   [
+    1789704000,
+    27
+   ],
+   [
+    1789790400,
+    54
+   ],
+   [
+    1789876800,
+    54
+   ],
+   [
+    1789963200,
+    54
+   ],
+   [
+    1790049600,
+    33
+   ],
+   [
+    1790136000,
+    33
+   ],
+   [
+    1790222400,
+    33
+   ],
+   [
+    1790308800,
+    33
+   ],
+   [
+    1790395200,
+    33
+   ],
+   [
+    1790481600,
+    33
+   ],
+   [
+    1790568000,
+    33
+   ],
+   [
+    1790654400,
+    33
+   ],
+   [
+    1790740800,
+    33
+   ],
+   [
+    1790827200,
+    54
+   ],
+   [
+    1790913600,
+    54
+   ],
+   [
+    1791000000,
+    54
+   ],
+   [
+    1791086400,
+    54
+   ],
+   [
+    1791172800,
+    33
+   ]
+  ]
+ }
+}

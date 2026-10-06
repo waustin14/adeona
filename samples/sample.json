@@ -1,0 +1,250 @@
+{
+  "_comment": "MOCK DATA. Prices, fare brands and award costs are invented for testing; not real quotes.",
+  "flights": [
+    {
+      "id": "WN-BWI-MCO-choice",
+      "price": 168,
+      "fare_brand": "Choice",
+      "is_basic_economy": false,
+      "segments": [
+        {
+          "airline": "Southwest",
+          "flight_number": "WN 1423",
+          "origin": "BWI",
+          "destination": "MCO",
+          "departs_at": "2026-11-14T07:05",
+          "arrives_at": "2026-11-14T09:20",
+          "duration_min": 135
+        }
+      ],
+      "award": {
+        "program": "Rapid Rewards",
+        "points": 11800,
+        "taxes": 5.6
+      }
+    },
+    {
+      "id": "WN-BWI-MCO-basic",
+      "price": 119,
+      "fare_brand": "Basic",
+      "is_basic_economy": true,
+      "segments": [
+        {
+          "airline": "Southwest",
+          "flight_number": "WN 2211",
+          "origin": "BWI",
+          "destination": "MCO",
+          "departs_at": "2026-11-14T12:40",
+          "arrives_at": "2026-11-14T14:55",
+          "duration_min": 135
+        }
+      ]
+    },
+    {
+      "id": "UA-IAD-MCO-main",
+      "price": 189,
+      "fare_brand": "Main",
+      "is_basic_economy": false,
+      "segments": [
+        {
+          "airline": "United",
+          "flight_number": "UA 2045",
+          "origin": "IAD",
+          "destination": "MCO",
+          "departs_at": "2026-11-14T09:15",
+          "arrives_at": "2026-11-14T11:35",
+          "duration_min": 140
+        }
+      ],
+      "award": {
+        "program": "MileagePlus",
+        "points": 10000,
+        "taxes": 5.6
+      }
+    },
+    {
+      "id": "UA-IAD-MCO-basic",
+      "price": 139,
+      "fare_brand": "Basic Economy",
+      "is_basic_economy": true,
+      "segments": [
+        {
+          "airline": "United",
+          "flight_number": "UA 1187",
+          "origin": "IAD",
+          "destination": "MCO",
+          "departs_at": "2026-11-14T15:30",
+          "arrives_at": "2026-11-14T17:50",
+          "duration_min": 140
+        }
+      ]
+    },
+    {
+      "id": "UA-IAD-EWR-MCO-overnight",
+      "price": 142,
+      "fare_brand": "Main",
+      "is_basic_economy": false,
+      "segments": [
+        {
+          "airline": "United",
+          "flight_number": "UA 3391",
+          "origin": "IAD",
+          "destination": "EWR",
+          "departs_at": "2026-11-14T21:10",
+          "arrives_at": "2026-11-14T22:25",
+          "duration_min": 75
+        },
+        {
+          "airline": "United",
+          "flight_number": "UA 1610",
+          "origin": "EWR",
+          "destination": "MCO",
+          "departs_at": "2026-11-15T06:00",
+          "arrives_at": "2026-11-15T08:45",
+          "duration_min": 165
+        }
+      ]
+    },
+    {
+      "id": "AA-DCA-CLT-MCO-tight",
+      "price": 154,
+      "fare_brand": "Main Cabin",
+      "is_basic_economy": false,
+      "segments": [
+        {
+          "airline": "American",
+          "flight_number": "AA 1902",
+          "origin": "DCA",
+          "destination": "CLT",
+          "departs_at": "2026-11-14T06:00",
+          "arrives_at": "2026-11-14T07:30",
+          "duration_min": 90
+        },
+        {
+          "airline": "American",
+          "flight_number": "AA 2735",
+          "origin": "CLT",
+          "destination": "MCO",
+          "departs_at": "2026-11-14T08:25",
+          "arrives_at": "2026-11-14T10:10",
+          "duration_min": 105
+        }
+      ]
+    },
+    {
+      "id": "DL-DCA-ATL-MCO",
+      "price": 176,
+      "fare_brand": "Main",
+      "is_basic_economy": false,
+      "segments": [
+        {
+          "airline": "Delta",
+          "flight_number": "DL 1440",
+          "origin": "DCA",
+          "destination": "ATL",
+          "departs_at": "2026-11-14T08:00",
+          "arrives_at": "2026-11-14T10:05",
+          "duration_min": 125
+        },
+        {
+          "airline": "Delta",
+          "flight_number": "DL 2290",
+          "origin": "ATL",
+          "destination": "MCO",
+          "departs_at": "2026-11-14T11:30",
+          "arrives_at": "2026-11-14T13:00",
+          "duration_min": 90
+        }
+      ],
+      "bag_rules": {
+        "first_checked_fee": 40,
+        "second_checked_fee": 50
+      }
+    },
+    {
+      "id": "DL-BWI-ATL-JAX-MCO",
+      "price": 131,
+      "fare_brand": "Main",
+      "is_basic_economy": false,
+      "segments": [
+        {
+          "airline": "Delta",
+          "flight_number": "DL 900",
+          "origin": "BWI",
+          "destination": "ATL",
+          "departs_at": "2026-11-14T06:00",
+          "arrives_at": "2026-11-14T08:05",
+          "duration_min": 125
+        },
+        {
+          "airline": "Delta",
+          "flight_number": "DL 1201",
+          "origin": "ATL",
+          "destination": "JAX",
+          "departs_at": "2026-11-14T09:15",
+          "arrives_at": "2026-11-14T10:25",
+          "duration_min": 70
+        },
+        {
+          "airline": "Delta",
+          "flight_number": "DL 3307",
+          "origin": "JAX",
+          "destination": "MCO",
+          "departs_at": "2026-11-14T11:30",
+          "arrives_at": "2026-11-14T12:25",
+          "duration_min": 55
+        }
+      ]
+    },
+    {
+      "id": "AA-B6-DCA-LGA-JFK-MCO",
+      "price": 128,
+      "fare_brand": "Main Cabin",
+      "is_basic_economy": false,
+      "notes": [
+        "self-transfer between LGA and JFK"
+      ],
+      "segments": [
+        {
+          "airline": "American",
+          "flight_number": "AA 2150",
+          "origin": "DCA",
+          "destination": "LGA",
+          "departs_at": "2026-11-14T07:00",
+          "arrives_at": "2026-11-14T08:15",
+          "duration_min": 75
+        },
+        {
+          "airline": "JetBlue",
+          "flight_number": "B6 583",
+          "origin": "JFK",
+          "destination": "MCO",
+          "departs_at": "2026-11-14T10:45",
+          "arrives_at": "2026-11-14T13:30",
+          "duration_min": 165
+        }
+      ]
+    },
+    {
+      "id": "NK-BWI-MCO",
+      "price": 79,
+      "fare_brand": null,
+      "is_basic_economy": null,
+      "segments": [
+        {
+          "airline": "Spirit",
+          "flight_number": "NK 1311",
+          "origin": "BWI",
+          "destination": "MCO",
+          "departs_at": "2026-11-14T10:20",
+          "arrives_at": "2026-11-14T12:40",
+          "duration_min": 140
+        }
+      ],
+      "bag_rules": {
+        "carry_on_included": false,
+        "first_checked_fee": 55
+      }
+    }
+  ]
+}

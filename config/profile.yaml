@@ -1,0 +1,26 @@
+# Traveler profile. Validated on load; see src/adeona/profile.py for the schema.
+home_airports: [BWI, IAD, DCA]
+hourly_value: 25                     # $ per hour of door-to-gate travel time
+preferred_airlines: [Southwest, United]
+avoid_airlines: []                   # flights touching these are filtered out (hard constraint)
+preferred_airline_bonus: 30          # $ I'd pay to fly a preferred airline
+loyalty:
+  Southwest: {status: A-List Preferred, program: Rapid Rewards, cpp: 1.2}
+  United:    {status: MileagePlus Silver, program: MileagePlus, cpp: 1.35}
+  # NOTE: original spec had "Ultimate Rewards. cpp: 1.5" (period instead of comma) -> fixed.
+  # Chase is a transferable currency, not an airline: used only for award comparisons.
+  Chase:     {status: Sapphire Reserve, program: Ultimate Rewards, cpp: 1.5}
+# Alliance membership is service reference data (src/adeona/data/airlines.yaml), not a profile setting.
+bags_checked: 1
+# Travel time for children/infants who don't set their own hourly_value.
+child_hourly_value: 0
+# Regular companions, chosen per trip with --travelers me,<name>. "me" is you (fields above).
+# Omitted values: adults use your hourly_value and bags_checked; infants check 0 bags.
+travelers: {}
+#  alex: {type: adult, bags_checked: 1,
+#         loyalty: {United: {status: none, program: MileagePlus, cpp: 1.35}}}
+#  sam:  {type: child}            # adult | child | infant_in_seat | infant_on_lap
+hard_constraints:
+  max_stops: 1
+  min_layover_min: 45
+  no_basic_economy: true

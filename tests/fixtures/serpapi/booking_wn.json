@@ -1,0 +1,381 @@
+{
+ "_comment": "Real SerpApi google_flights response captured 2026-10-06, trimmed (logos, click URLs, metadata removed).",
+ "search_parameters": {
+  "engine": "google_flights",
+  "hl": "en",
+  "gl": "us",
+  "type": "2",
+  "departure_id": "BWI,IAD,DCA",
+  "arrival_id": "MCO",
+  "outbound_date": "2026-11-14",
+  "booking_token": "WyJDalJJV0VwVlRVRlhjMVZuV0ZWQlZIcDFWRUZDUnkwdExTMHRMUzB0TFMxMmQzbHFPVUZCUVVGQlIzSkdTVUpGUW5obFNsZEJFZ1pYVGpFME9EZ2FDZ2pRVHhBQ0dnTlZVMFE0SEhEUVR3PT0iLFtbIkRDQSIsIjIwMjYtMTEtMTQiLCJNQ08iLG51bGwsIldOIiwiMTQ4OCJdXV0=",
+  "currency": "USD"
+ },
+ "selected_flights": [
+  {
+   "flights": [
+    {
+     "departure_airport": {
+      "name": "Ronald Reagan Washington National Airport",
+      "id": "DCA",
+      "time": "2026-11-14 16:40"
+     },
+     "arrival_airport": {
+      "name": "Orlando International Airport",
+      "id": "MCO",
+      "time": "2026-11-14 19:10"
+     },
+     "duration": 150,
+     "airplane": "Boeing 737-700 (Scimitar Winglets) Pax",
+     "airline": "Southwest",
+     "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/WN.png",
+     "travel_class": "Economy",
+     "flight_number": "WN 1488",
+     "legroom": "31 in",
+     "extensions": [
+      "Average legroom (31 in)",
+      "Free Wi-Fi",
+      "Stream media to your device",
+      "Carbon emissions estimate: 135 kg"
+     ]
+    }
+   ],
+   "total_duration": 150,
+   "carbon_emissions": {
+    "this_flight": 136000,
+    "typical_for_this_route": 129000,
+    "difference_percent": 5
+   },
+   "type": "One way",
+   "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/WN.png"
+  }
+ ],
+ "baggage_prices": {
+  "together": [
+   "1 free carry-on",
+   "1st checked bag: 45"
+  ]
+ },
+ "booking_options": [
+  {
+   "together": {
+    "book_with": "Southwest",
+    "airline": true,
+    "marketed_as": [
+     "WN 1488"
+    ],
+    "price": 66,
+    "option_title": "Basic",
+    "extensions": [
+     "Seat selection for a fee",
+     "No ticket changes",
+     "No refunds",
+     "Extra legroom available for a fee",
+     "Priority boarding for a fee"
+    ],
+    "baggage_prices": [
+     "1 free carry-on",
+     "1st checked bag: 45"
+    ]
+   }
+  },
+  {
+   "together": {
+    "book_with": "Southwest",
+    "airline": true,
+    "marketed_as": [
+     "WN 1488"
+    ],
+    "price": 102,
+    "option_title": "Choice",
+    "extensions": [
+     "Free seat selection",
+     "Free change, possible fare difference",
+     "No refunds",
+     "Extra legroom available for a fee",
+     "Priority boarding for a fee"
+    ],
+    "baggage_prices": [
+     "1 free carry-on",
+     "1st checked bag: 45"
+    ]
+   }
+  },
+  {
+   "together": {
+    "book_with": "Southwest",
+    "airline": true,
+    "marketed_as": [
+     "WN 1488"
+    ],
+    "price": 168,
+    "option_title": "Choice Preferred",
+    "extensions": [
+     "Free seat selection",
+     "Free change, possible fare difference",
+     "Full refunds",
+     "Extra legroom available for a fee",
+     "Priority boarding for a fee"
+    ],
+    "baggage_prices": [
+     "1 free carry-on",
+     "1st checked bag: 45"
+    ]
+   }
+  }
+ ],
+ "price_insights": {
+  "lowest_price": 66,
+  "price_level": "low",
+  "typical_price_range": [
+   80,
+   265
+  ],
+  "price_history": [
+   [
+    1786075200,
+    119
+   ],
+   [
+    1786161600,
+    131
+   ],
+   [
+    1786248000,
+    92
+   ],
+   [
+    1786334400,
+    92
+   ],
+   [
+    1786420800,
+    92
+   ],
+   [
+    1786507200,
+    92
+   ],
+   [
+    1786593600,
+    92
+   ],
+   [
+    1786680000,
+    92
+   ],
+   [
+    1786766400,
+    139
+   ],
+   [
+    1786852800,
+    119
+   ],
+   [
+    1786939200,
+    119
+   ],
+   [
+    1787025600,
+    119
+   ],
+   [
+    1787112000,
+    119
+   ],
+   [
+    1787198400,
+    119
+   ],
+   [
+    1787284800,
+    119
+   ],
+   [
+    1787371200,
+    119
+   ],
+   [
+    1787457600,
+    119
+   ],
+   [
+    1787544000,
+    119
+   ],
+   [
+    1787630400,
+    119
+   ],
+   [
+    1787716800,
+    119
+   ],
+   [
+    1787803200,
+    119
+   ],
+   [
+    1787889600,
+    119
+   ],
+   [
+    1787976000,
+    149
+   ],
+   [
+    1788062400,
+    149
+   ],
+   [
+    1788148800,
+    149
+   ],
+   [
+    1788235200,
+    119
+   ],
+   [
+    1788321600,
+    119
+   ],
+   [
+    1788408000,
+    119
+   ],
+   [
+    1788494400,
+    119
+   ],
+   [
+    1788580800,
+    129
+   ],
+   [
+    1788667200,
+    129
+   ],
+   [
+    1788753600,
+    129
+   ],
+   [
+    1788840000,
+    119
+   ],
+   [
+    1788926400,
+    74
+   ],
+   [
+    1789012800,
+    74
+   ],
+   [
+    1789099200,
+    74
+   ],
+   [
+    1789185600,
+    84
+   ],
+   [
+    1789272000,
+    74
+   ],
+   [
+    1789358400,
+    73
+   ],
+   [
+    1789444800,
+    73
+   ],
+   [
+    1789531200,
+    73
+   ],
+   [
+    1789617600,
+    73
+   ],
+   [
+    1789704000,
+    73
+   ],
+   [
+    1789790400,
+    79
+   ],
+   [
+    1789876800,
+    79
+   ],
+   [
+    1789963200,
+    79
+   ],
+   [
+    1790049600,
+    79
+   ],
+   [
+    1790136000,
+    79
+   ],
+   [
+    1790222400,
+    79
+   ],
+   [
+    1790308800,
+    79
+   ],
+   [
+    1790395200,
+    79
+   ],
+   [
+    1790481600,
+    79
+   ],
+   [
+    1790568000,
+    79
+   ],
+   [
+    1790654400,
+    79
+   ],
+   [
+    1790740800,
+    79
+   ],
+   [
+    1790827200,
+    79
+   ],
+   [
+    1790913600,
+    79
+   ],
+   [
+    1791000000,
+    79
+   ],
+   [
+    1791086400,
+    66
+   ],
+   [
+    1791172800,
+    66
+   ],
+   [
+    1791259200,
+    66
+   ]
+  ]
+ }
+}

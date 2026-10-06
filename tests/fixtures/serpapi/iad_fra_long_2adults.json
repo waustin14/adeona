@@ -1,0 +1,1486 @@
+{
+ "_comment": "Real SerpApi response captured 2026-10-06: same query as iad_fra_long.json but adults=2. Shows `price` is the PARTY TOTAL (2x the 1-adult price).",
+ "search_parameters": {
+  "engine": "google_flights",
+  "hl": "en",
+  "gl": "us",
+  "type": "2",
+  "departure_id": "IAD",
+  "arrival_id": "FRA",
+  "outbound_date": "2026-11-14",
+  "travel_class": 1,
+  "adults": 2,
+  "stops": 2,
+  "bags": 0,
+  "layover_duration": "480,1440",
+  "currency": "USD",
+  "show_hidden": true,
+  "exclude_basic": true
+ },
+ "best_flights": [
+  {
+   "flights": [
+    {
+     "departure_airport": {
+      "name": "Dulles International Airport",
+      "id": "IAD",
+      "time": "2026-11-14 17:30"
+     },
+     "arrival_airport": {
+      "name": "Frankfurt Airport",
+      "id": "FRA",
+      "time": "2026-11-15 07:25"
+     },
+     "duration": 475,
+     "airplane": "Boeing 777",
+     "airline": "United",
+     "travel_class": "Economy",
+     "flight_number": "UA 989",
+     "ticket_also_sold_by": [
+      "Lufthansa"
+     ],
+     "legroom": "31 in",
+     "extensions": [
+      "Average legroom (31 in)",
+      "Wi-Fi for a fee",
+      "In-seat power & USB outlets",
+      "On-demand video",
+      "Carbon emissions estimate: 855 kg"
+     ],
+     "overnight": true,
+     "often_delayed_by_over_30_min": true
+    }
+   ],
+   "total_duration": 475,
+   "carbon_emissions": {
+    "this_flight": 856000,
+    "typical_for_this_route": 942000,
+    "difference_percent": -9
+   },
+   "price": 1597,
+   "type": "One way",
+   "booking_token": "WyJDalJJUTFOWk5XNXRPRzlZZGtWQlZITjFPV2RDUnkwdExTMHRMUzB0TFMxMmQyNWhNa0ZCUVVGQlIzSkdVMHAzU1c4Mk5YVkJFZ1ZWUVRrNE9Sb0xDTlRmQ1JBQ0dnTlZVMFE0SEhEVTN3az0iLFtbIklBRCIsIjIwMjYtMTEtMTQiLCJGUkEiLG51bGwsIlVBIiwiOTg5Il1dXQ=="
+  },
+  {
+   "flights": [
+    {
+     "departure_airport": {
+      "name": "Dulles International Airport",
+      "id": "IAD",
+      "time": "2026-11-14 18:00"
+     },
+     "arrival_airport": {
+      "name": "Frankfurt Airport",
+      "id": "FRA",
+      "time": "2026-11-15 07:40"
+     },
+     "duration": 460,
+     "airplane": "Airbus A350",
+     "airline": "Lufthansa",
+     "travel_class": "Economy",
+     "flight_number": "LH 419",
+     "ticket_also_sold_by": [
+      "United"
+     ],
+     "legroom": "31 in",
+     "extensions": [
+      "Average legroom (31 in)",
+      "Wi-Fi for a fee",
+      "In-seat power & USB outlets",
+      "On-demand video",
+      "Carbon emissions estimate: 774 kg"
+     ],
+     "overnight": true,
+     "often_delayed_by_over_30_min": true
+    }
+   ],
+   "total_duration": 460,
+   "carbon_emissions": {
+    "this_flight": 774000,
+    "typical_for_this_route": 942000,
+    "difference_percent": -18
+   },
+   "price": 1597,
+   "type": "One way",
+   "booking_token": "WyJDalJJUTFOWk5XNXRPRzlZZGtWQlZITjFPV2RDUnkwdExTMHRMUzB0TFMxMmQyNWhNa0ZCUVVGQlIzSkdVMHAzU1c4Mk5YVkJFZ1ZNU0RReE9Sb0xDTlRmQ1JBQ0dnTlZVMFE0SEhEVTN3az0iLFtbIklBRCIsIjIwMjYtMTEtMTQiLCJGUkEiLG51bGwsIkxIIiwiNDE5Il1dXQ=="
+  },
+  {
+   "flights": [
+    {
+     "departure_airport": {
+      "name": "Dulles International Airport",
+      "id": "IAD",
+      "time": "2026-11-14 22:10"
+     },
+     "arrival_airport": {
+      "name": "Frankfurt Airport",
+      "id": "FRA",
+      "time": "2026-11-15 12:00"
+     },
+     "duration": 470,
+     "airplane": "Boeing 777",
+     "airline": "United",
+     "travel_class": "Economy",
+     "flight_number": "UA 932",
+     "ticket_also_sold_by": [
+      "Lufthansa"
+     ],
+     "legroom": "31 in",
+     "extensions": [
+      "Average legroom (31 in)",
+      "Wi-Fi for a fee",
+      "In-seat power & USB outlets",
+      "On-demand video",
+      "Carbon emissions estimate: 943 kg"
+     ],
+     "overnight": true
+    }
+   ],
+   "total_duration": 470,
+   "carbon_emissions": {
+    "this_flight": 943000,
+    "typical_for_this_route": 942000,
+    "difference_percent": 0
+   },
+   "price": 1597,
+   "type": "One way",
+   "booking_token": "WyJDalJJUTFOWk5XNXRPRzlZZGtWQlZITjFPV2RDUnkwdExTMHRMUzB0TFMxMmQyNWhNa0ZCUVVGQlIzSkdVMHAzU1c4Mk5YVkJFZ1ZWUVRrek1ob0xDTlRmQ1JBQ0dnTlZVMFE0SEhEVTN3az0iLFtbIklBRCIsIjIwMjYtMTEtMTQiLCJGUkEiLG51bGwsIlVBIiwiOTMyIl1dXQ=="
+  }
+ ],
+ "other_flights": [
+  {
+   "flights": [
+    {
+     "departure_airport": {
+      "name": "Dulles International Airport",
+      "id": "IAD",
+      "time": "2026-11-14 17:25"
+     },
+     "arrival_airport": {
+      "name": "Humberto Delgado Airport",
+      "id": "LIS",
+      "time": "2026-11-15 05:35"
+     },
+     "duration": 430,
+     "airplane": "Airbus A321neo",
+     "airline": "Tap Air Portugal",
+     "travel_class": "Economy",
+     "flight_number": "TP 232",
+     "legroom": "31 in",
+     "extensions": [
+      "Average legroom (31 in)",
+      "Wi-Fi for a fee",
+      "In-seat power & USB outlets",
+      "On-demand video",
+      "Carbon emissions estimate: 990 kg"
+     ],
+     "overnight": true
+    },
+    {
+     "departure_airport": {
+      "name": "Humberto Delgado Airport",
+      "id": "LIS",
+      "time": "2026-11-15 18:25"
+     },
+     "arrival_airport": {
+      "name": "Frankfurt Airport",
+      "id": "FRA",
+      "time": "2026-11-15 22:40"
+     },
+     "duration": 195,
+     "airplane": "Airbus A320",
+     "airline": "Tap Air Portugal",
+     "travel_class": "Economy",
+     "flight_number": "TP 574",
+     "legroom": "28 in",
+     "extensions": [
+      "Below average legroom (28 in)",
+      "Carbon emissions estimate: 338 kg"
+     ],
+     "often_delayed_by_over_30_min": true
+    }
+   ],
+   "layovers": [
+    {
+     "duration": 770,
+     "name": "Humberto Delgado Airport",
+     "id": "LIS"
+    }
+   ],
+   "total_duration": 1395,
+   "carbon_emissions": {
+    "this_flight": 1329000,
+    "typical_for_this_route": 942000,
+    "difference_percent": 41
+   },
+   "price": 1079,
+   "type": "One way",
+   "booking_token": "WyJDalJJUTFOWk5XNXRPRzlZZGtWQlZITjFPV2RDUnkwdExTMHRMUzB0TFMxMmQyNWhNa0ZCUVVGQlIzSkdVMHAzU1c4Mk5YVkJFZ3RVVURJek1ueFVVRFUzTkJvTENLektCaEFDR2dOVlUwUTRISENzeWdZPSIsW1siSUFEIiwiMjAyNi0xMS0xNCIsIkxJUyIsbnVsbCwiVFAiLCIyMzIiXSxbIkxJUyIsIjIwMjYtMTEtMTUiLCJGUkEiLG51bGwsIlRQIiwiNTc0Il1dXQ=="
+  },
+  {
+   "flights": [
+    {
+     "departure_airport": {
+      "name": "Dulles International Airport",
+      "id": "IAD",
+      "time": "2026-11-14 13:30"
+     },
+     "arrival_airport": {
+      "name": "Istanbul Airport",
+      "id": "IST",
+      "time": "2026-11-15 07:10"
+     },
+     "duration": 580,
+     "airplane": "Boeing 787",
+     "airline": "Turkish Airlines",
+     "travel_class": "Economy",
+     "flight_number": "TK 188",
+     "legroom": "31 in",
+     "extensions": [
+      "Average legroom (31 in)",
+      "Wi-Fi for a fee",
+      "In-seat USB outlet",
+      "On-demand video",
+      "Carbon emissions estimate: 978 kg"
+     ],
+     "overnight": true
+    },
+    {
+     "departure_airport": {
+      "name": "Istanbul Airport",
+      "id": "IST",
+      "time": "2026-11-15 15:35"
+     },
+     "arrival_airport": {
+      "name": "Frankfurt Airport",
+      "id": "FRA",
+      "time": "2026-11-15 16:45"
+     },
+     "duration": 190,
+     "airplane": "Airbus A330",
+     "airline": "Turkish Airlines",
+     "travel_class": "Economy",
+     "flight_number": "TK 1593",
+     "legroom": "31 in",
+     "extensions": [
+      "Average legroom (31 in)",
+      "Wi-Fi for a fee",
+      "In-seat power & USB outlets",
+      "On-demand video",
+      "Carbon emissions estimate: 367 kg"
+     ]
+    }
+   ],
+   "layovers": [
+    {
+     "duration": 505,
+     "name": "Istanbul Airport",
+     "id": "IST"
+    }
+   ],
+   "total_duration": 1275,
+   "carbon_emissions": {
+    "this_flight": 1346000,
+    "typical_for_this_route": 942000,
+    "difference_percent": 43
+   },
+   "price": 1169,
+   "type": "One way",
+   "booking_token": "WyJDalJJUTFOWk5XNXRPRzlZZGtWQlZITjFPV2RDUnkwdExTMHRMUzB0TFMxMmQyNWhNa0ZCUVVGQlIzSkdVMHAzU1c4Mk5YVkJFZ3hVU3pFNE9IeFVTekUxT1RNYUN3aVFrUWNRQWhvRFZWTkVPQnh3a0pFSCIsW1siSUFEIiwiMjAyNi0xMS0xNCIsIklTVCIsbnVsbCwiVEsiLCIxODgiXSxbIklTVCIsIjIwMjYtMTEtMTUiLCJGUkEiLG51bGwsIlRLIiwiMTU5MyJdXV0="
+  },
+  {
+   "flights": [
+    {
+     "departure_airport": {
+      "name": "Dulles International Airport",
+      "id": "IAD",
+      "time": "2026-11-14 13:30"
+     },
+     "arrival_airport": {
+      "name": "Istanbul Airport",
+      "id": "IST",
+      "time": "2026-11-15 07:10"
+     },
+     "duration": 580,
+     "airplane": "Boeing 787",
+     "airline": "Turkish Airlines",
+     "travel_class": "Economy",
+     "flight_number": "TK 188",
+     "legroom": "31 in",
+     "extensions": [
+      "Average legroom (31 in)",
+      "Wi-Fi for a fee",
+      "In-seat USB outlet",
+      "On-demand video",
+      "Carbon emissions estimate: 978 kg"
+     ],
+     "overnight": true
+    },
+    {
+     "departure_airport": {
+      "name": "Istanbul Airport",
+      "id": "IST",
+      "time": "2026-11-15 21:00"
+     },
+     "arrival_airport": {
+      "name": "Frankfurt Airport",
+      "id": "FRA",
+      "time": "2026-11-15 22:10"
+     },
+     "duration": 190,
+     "airplane": "Airbus A321 (Sharklets)",
+     "airline": "Turkish Airlines",
+     "travel_class": "Economy",
+     "flight_number": "TK 1597",
+     "legroom": "31 in",
+     "extensions": [
+      "Average legroom (31 in)",
+      "Wi-Fi for a fee",
+      "In-seat USB outlet",
+      "On-demand video",
+      "Carbon emissions estimate: 373 kg"
+     ]
+    }
+   ],
+   "layovers": [
+    {
+     "duration": 830,
+     "name": "Istanbul Airport",
+     "id": "IST"
+    }
+   ],
+   "total_duration": 1600,
+   "carbon_emissions": {
+    "this_flight": 1352000,
+    "typical_for_this_route": 942000,
+    "difference_percent": 44
+   },
+   "price": 1169,
+   "type": "One way",
+   "booking_token": "WyJDalJJUTFOWk5XNXRPRzlZZGtWQlZITjFPV2RDUnkwdExTMHRMUzB0TFMxMmQyNWhNa0ZCUVVGQlIzSkdVMHAzU1c4Mk5YVkJFZ3hVU3pFNE9IeFVTekUxT1RjYUN3aVFrUWNRQWhvRFZWTkVPQnh3a0pFSCIsW1siSUFEIiwiMjAyNi0xMS0xNCIsIklTVCIsbnVsbCwiVEsiLCIxODgiXSxbIklTVCIsIjIwMjYtMTEtMTUiLCJGUkEiLG51bGwsIlRLIiwiMTU5NyJdXV0="
+  },
+  {
+   "flights": [
+    {
+     "departure_airport": {
+      "name": "Dulles International Airport",
+      "id": "IAD",
+      "time": "2026-11-14 21:30"
+     },
+     "arrival_airport": {
+      "name": "A\u00e9roport de Paris-Charles de Gaulle",
+      "id": "CDG",
+      "time": "2026-11-15 11:00"
+     },
+     "duration": 450,
+     "airplane": "Airbus A350",
+     "airline": "Air France",
+     "travel_class": "Economy",
+     "flight_number": "AF 53",
+     "ticket_also_sold_by": [
+      "Delta"
+     ],
+     "legroom": "31 in",
+     "extensions": [
+      "Average legroom (31 in)",
+      "In-seat USB outlet",
+      "On-demand video",
+      "Carbon emissions estimate: 832 kg"
+     ],
+     "overnight": true
+    },
+    {
+     "departure_airport": {
+      "name": "A\u00e9roport de Paris-Charles de Gaulle",
+      "id": "CDG",
+      "time": "2026-11-15 20:45"
+     },
+     "arrival_airport": {
+      "name": "Frankfurt Airport",
+      "id": "FRA",
+      "time": "2026-11-15 22:05"
+     },
+     "duration": 80,
+     "airplane": "Embraer 190",
+     "airline": "Air France",
+     "travel_class": "Economy",
+     "flight_number": "AF 1018",
+     "legroom": "29 in",
+     "extensions": [
+      "Below average legroom (29 in)",
+      "Free Wi-Fi",
+      "In-seat USB outlet",
+      "Carbon emissions estimate: 147 kg"
+     ],
+     "plane_and_crew_by": "HOP!"
+    }
+   ],
+   "layovers": [
+    {
+     "duration": 585,
+     "name": "A\u00e9roport de Paris-Charles de Gaulle",
+     "id": "CDG"
+    }
+   ],
+   "total_duration": 1115,
+   "carbon_emissions": {
+    "this_flight": 979000,
+    "typical_for_this_route": 942000,
+    "difference_percent": 4
+   },
+   "price": 1265,
+   "type": "One way",
+   "booking_token": "WyJDalJJUTFOWk5XNXRPRzlZZGtWQlZITjFPV2RDUnkwdExTMHRMUzB0TFMxMmQyNWhNa0ZCUVVGQlIzSkdVMHAzU1c4Mk5YVkJFZ3RCUmpVemZFRkdNVEF4T0JvTENOVGJCeEFDR2dOVlUwUTRISERVMndjPSIsW1siSUFEIiwiMjAyNi0xMS0xNCIsIkNERyIsbnVsbCwiQUYiLCI1MyJdLFsiQ0RHIiwiMjAyNi0xMS0xNSIsIkZSQSIsbnVsbCwiQUYiLCIxMDE4Il1dXQ=="
+  },
+  {
+   "flights": [
+    {
+     "departure_airport": {
+      "name": "Dulles International Airport",
+      "id": "IAD",
+      "time": "2026-11-14 06:00"
+     },
+     "arrival_airport": {
+      "name": "Hartsfield-Jackson Atlanta International Airport",
+      "id": "ATL",
+      "time": "2026-11-14 07:51"
+     },
+     "duration": 111,
+     "airplane": "Airbus A319",
+     "airline": "Delta",
+     "travel_class": "Economy",
+     "flight_number": "DL 2327",
+     "ticket_also_sold_by": [
+      "Virgin Atlantic"
+     ],
+     "legroom": "31 in",
+     "extensions": [
+      "Average legroom (31 in)",
+      "Free Wi-Fi",
+      "In-seat power & USB outlets",
+      "Live TV",
+      "Carbon emissions estimate: 205 kg"
+     ]
+    },
+    {
+     "departure_airport": {
+      "name": "Hartsfield-Jackson Atlanta International Airport",
+      "id": "ATL",
+      "time": "2026-11-14 17:10"
+     },
+     "arrival_airport": {
+      "name": "Frankfurt Airport",
+      "id": "FRA",
+      "time": "2026-11-15 07:50"
+     },
+     "duration": 520,
+     "airplane": "Airbus A330",
+     "airline": "Delta",
+     "travel_class": "Economy",
+     "flight_number": "DL 14",
+     "ticket_also_sold_by": [
+      "Virgin Atlantic"
+     ],
+     "legroom": "31 in",
+     "extensions": [
+      "Average legroom (31 in)",
+      "Free Wi-Fi",
+      "In-seat power & USB outlets",
+      "On-demand video",
+      "Carbon emissions estimate: 1037 kg"
+     ],
+     "overnight": true
+    }
+   ],
+   "layovers": [
+    {
+     "duration": 559,
+     "name": "Hartsfield-Jackson Atlanta International Airport",
+     "id": "ATL"
+    }
+   ],
+   "total_duration": 1190,
+   "carbon_emissions": {
+    "this_flight": 1243000,
+    "typical_for_this_route": 942000,
+    "difference_percent": 32
+   },
+   "price": 1266,
+   "type": "One way",
+   "booking_token": "WyJDalJJUTFOWk5XNXRPRzlZZGtWQlZITjFPV2RDUnkwdExTMHRMUzB0TFMxMmQyNWhNa0ZCUVVGQlIzSkdVMHAzU1c4Mk5YVkJFZ3RFVERJek1qZDhSRXd4TkJvTENJamRCeEFDR2dOVlUwUTRISENJM1FjPSIsW1siSUFEIiwiMjAyNi0xMS0xNCIsIkFUTCIsbnVsbCwiREwiLCIyMzI3Il0sWyJBVEwiLCIyMDI2LTExLTE0IiwiRlJBIixudWxsLCJETCIsIjE0Il1dXQ=="
+  },
+  {
+   "flights": [
+    {
+     "departure_airport": {
+      "name": "Dulles International Airport",
+      "id": "IAD",
+      "time": "2026-11-14 06:00"
+     },
+     "arrival_airport": {
+      "name": "Detroit Metropolitan Wayne County Airport",
+      "id": "DTW",
+      "time": "2026-11-14 07:41"
+     },
+     "duration": 101,
+     "airplane": "Canadair RJ 900",
+     "airline": "Delta",
+     "travel_class": "Economy",
+     "flight_number": "DL 5511",
+     "ticket_also_sold_by": [
+      "Virgin Atlantic"
+     ],
+     "legroom": "31 in",
+     "extensions": [
+      "Average legroom (31 in)",
+      "Free Wi-Fi",
+      "Carbon emissions estimate: 239 kg"
+     ],
+     "plane_and_crew_by": "Endeavor Air DBA Delta Connection"
+    },
+    {
+     "departure_airport": {
+      "name": "Detroit Metropolitan Wayne County Airport",
+      "id": "DTW",
+      "time": "2026-11-14 18:35"
+     },
+     "arrival_airport": {
+      "name": "Frankfurt Airport",
+      "id": "FRA",
+      "time": "2026-11-15 08:40"
+     },
+     "duration": 485,
+     "airplane": "Airbus A330",
+     "airline": "Delta",
+     "travel_class": "Economy",
+     "flight_number": "DL 86",
+     "ticket_also_sold_by": [
+      "Virgin Atlantic"
+     ],
+     "legroom": "31 in",
+     "extensions": [
+      "Average legroom (31 in)",
+      "Free Wi-Fi",
+      "In-seat power & USB outlets",
+      "On-demand video",
+      "Carbon emissions estimate: 1084 kg"
+     ],
+     "overnight": true
+    }
+   ],
+   "layovers": [
+    {
+     "duration": 654,
+     "name": "Detroit Metropolitan Wayne County Airport",
+     "id": "DTW"
+    }
+   ],
+   "total_duration": 1240,
+   "carbon_emissions": {
+    "this_flight": 1323000,
+    "typical_for_this_route": 942000,
+    "difference_percent": 40
+   },
+   "price": 1266,
+   "type": "One way",
+   "booking_token": "WyJDalJJUTFOWk5XNXRPRzlZZGtWQlZITjFPV2RDUnkwdExTMHRMUzB0TFMxMmQyNWhNa0ZCUVVGQlIzSkdVMHAzU1c4Mk5YVkJFZ3RFVERVMU1URjhSRXc0TmhvTENJamRCeEFDR2dOVlUwUTRISENJM1FjPSIsW1siSUFEIiwiMjAyNi0xMS0xNCIsIkRUVyIsbnVsbCwiREwiLCI1NTExIl0sWyJEVFciLCIyMDI2LTExLTE0IiwiRlJBIixudWxsLCJETCIsIjg2Il1dXQ=="
+  },
+  {
+   "flights": [
+    {
+     "departure_airport": {
+      "name": "Dulles International Airport",
+      "id": "IAD",
+      "time": "2026-11-14 18:40"
+     },
+     "arrival_airport": {
+      "name": "A\u00e9roport de Paris-Charles de Gaulle",
+      "id": "CDG",
+      "time": "2026-11-15 08:10"
+     },
+     "duration": 450,
+     "airplane": "Boeing 777",
+     "airline": "Air France",
+     "travel_class": "Economy",
+     "flight_number": "AF 51",
+     "ticket_also_sold_by": [
+      "Delta"
+     ],
+     "legroom": "31 in",
+     "extensions": [
+      "Average legroom (31 in)",
+      "Free Wi-Fi",
+      "In-seat USB outlet",
+      "On-demand video",
+      "Carbon emissions estimate: 979 kg"
+     ],
+     "overnight": true
+    },
+    {
+     "departure_airport": {
+      "name": "A\u00e9roport de Paris-Charles de Gaulle",
+      "id": "CDG",
+      "time": "2026-11-15 20:45"
+     },
+     "arrival_airport": {
+      "name": "Frankfurt Airport",
+      "id": "FRA",
+      "time": "2026-11-15 22:05"
+     },
+     "duration": 80,
+     "airplane": "Embraer 190",
+     "airline": "Air France",
+     "travel_class": "Economy",
+     "flight_number": "AF 1018",
+     "legroom": "29 in",
+     "extensions": [
+      "Below average legroom (29 in)",
+      "Free Wi-Fi",
+      "In-seat USB outlet",
+      "Carbon emissions estimate: 147 kg"
+     ],
+     "plane_and_crew_by": "HOP!"
+    }
+   ],
+   "layovers": [
+    {
+     "duration": 755,
+     "name": "A\u00e9roport de Paris-Charles de Gaulle",
+     "id": "CDG"
+    }
+   ],
+   "total_duration": 1285,
+   "carbon_emissions": {
+    "this_flight": 1126000,
+    "typical_for_this_route": 942000,
+    "difference_percent": 20
+   },
+   "price": 1268,
+   "type": "One way",
+   "booking_token": "WyJDalJJUTFOWk5XNXRPRzlZZGtWQlZITjFPV2RDUnkwdExTMHRMUzB0TFMxMmQyNWhNa0ZCUVVGQlIzSkdVMHAzU1c4Mk5YVkJFZ3RCUmpVeGZFRkdNVEF4T0JvTENJRGVCeEFDR2dOVlUwUTRISENBM2djPSIsW1siSUFEIiwiMjAyNi0xMS0xNCIsIkNERyIsbnVsbCwiQUYiLCI1MSJdLFsiQ0RHIiwiMjAyNi0xMS0xNSIsIkZSQSIsbnVsbCwiQUYiLCIxMDE4Il1dXQ=="
+  },
+  {
+   "flights": [
+    {
+     "departure_airport": {
+      "name": "Dulles International Airport",
+      "id": "IAD",
+      "time": "2026-11-14 18:15"
+     },
+     "arrival_airport": {
+      "name": "Amsterdam Airport Schiphol",
+      "id": "AMS",
+      "time": "2026-11-15 07:35"
+     },
+     "duration": 440,
+     "airplane": "Boeing 777",
+     "airline": "KLM",
+     "travel_class": "Economy",
+     "flight_number": "KL 652",
+     "ticket_also_sold_by": [
+      "Delta"
+     ],
+     "legroom": "31 in",
+     "extensions": [
+      "Average legroom (31 in)",
+      "Wi-Fi for a fee",
+      "In-seat USB outlet",
+      "On-demand video",
+      "Carbon emissions estimate: 871 kg"
+     ],
+     "overnight": true
+    },
+    {
+     "departure_airport": {
+      "name": "Amsterdam Airport Schiphol",
+      "id": "AMS",
+      "time": "2026-11-15 16:50"
+     },
+     "arrival_airport": {
+      "name": "Frankfurt Airport",
+      "id": "FRA",
+      "time": "2026-11-15 17:55"
+     },
+     "duration": 65,
+     "airplane": "Embraer 175",
+     "airline": "KLM",
+     "travel_class": "Economy",
+     "flight_number": "KL 1821",
+     "ticket_also_sold_by": [
+      "Delta"
+     ],
+     "legroom": "29 in",
+     "extensions": [
+      "Below average legroom (29 in)",
+      "Carbon emissions estimate: 151 kg"
+     ],
+     "plane_and_crew_by": "KLM Cityhopper"
+    }
+   ],
+   "layovers": [
+    {
+     "duration": 555,
+     "name": "Amsterdam Airport Schiphol",
+     "id": "AMS"
+    }
+   ],
+   "total_duration": 1060,
+   "carbon_emissions": {
+    "this_flight": 1023000,
+    "typical_for_this_route": 942000,
+    "difference_percent": 9
+   },
+   "price": 1273,
+   "type": "One way",
+   "booking_token": "WyJDalJJUTFOWk5XNXRPRzlZZGtWQlZITjFPV2RDUnkwdExTMHRMUzB0TFMxMmQyNWhNa0ZCUVVGQlIzSkdVMHAzU1c4Mk5YVkJFZ3hMVERZMU1ueExUREU0TWpFYUN3aWM0Z2NRQWhvRFZWTkVPQnh3bk9JSCIsW1siSUFEIiwiMjAyNi0xMS0xNCIsIkFNUyIsbnVsbCwiS0wiLCI2NTIiXSxbIkFNUyIsIjIwMjYtMTEtMTUiLCJGUkEiLG51bGwsIktMIiwiMTgyMSJdXV0="
+  },
+  {
+   "flights": [
+    {
+     "departure_airport": {
+      "name": "Dulles International Airport",
+      "id": "IAD",
+      "time": "2026-11-14 09:55"
+     },
+     "arrival_airport": {
+      "name": "Toronto Pearson International Airport",
+      "id": "YYZ",
+      "time": "2026-11-14 11:22"
+     },
+     "duration": 87,
+     "airplane": "Canadair RJ 900",
+     "airline": "Air Canada",
+     "travel_class": "Economy",
+     "flight_number": "AC 8615",
+     "legroom": "31 in",
+     "extensions": [
+      "Average legroom (31 in)",
+      "Free Wi-Fi",
+      "In-seat USB outlet",
+      "Stream media to your device",
+      "Carbon emissions estimate: 197 kg"
+     ],
+     "plane_and_crew_by": "Air Canada Express - Jazz"
+    },
+    {
+     "departure_airport": {
+      "name": "Toronto Pearson International Airport",
+      "id": "YYZ",
+      "time": "2026-11-14 21:25"
+     },
+     "arrival_airport": {
+      "name": "Frankfurt Airport",
+      "id": "FRA",
+      "time": "2026-11-15 11:10"
+     },
+     "duration": 465,
+     "airplane": "Boeing 787",
+     "airline": "Air Canada",
+     "travel_class": "Economy",
+     "flight_number": "AC 842",
+     "legroom": "31 in",
+     "extensions": [
+      "Average legroom (31 in)",
+      "Wi-Fi for a fee",
+      "In-seat power & USB outlets",
+      "On-demand video",
+      "Carbon emissions estimate: 672 kg"
+     ],
+     "overnight": true,
+     "often_delayed_by_over_30_min": true
+    }
+   ],
+   "layovers": [
+    {
+     "duration": 603,
+     "name": "Toronto Pearson International Airport",
+     "id": "YYZ"
+    }
+   ],
+   "total_duration": 1155,
+   "carbon_emissions": {
+    "this_flight": 870000,
+    "typical_for_this_route": 942000,
+    "difference_percent": -8
+   },
+   "price": 1373,
+   "type": "One way",
+   "booking_token": "WyJDalJJUTFOWk5XNXRPRzlZZGtWQlZITjFPV2RDUnkwdExTMHRMUzB0TFMxMmQyNWhNa0ZCUVVGQlIzSkdVMHAzU1c4Mk5YVkJFZ3hCUXpnMk1UVjhRVU00TkRJYUN3akFzQWdRQWhvRFZWTkVPQnh3d0xBSSIsW1siSUFEIiwiMjAyNi0xMS0xNCIsIllZWiIsbnVsbCwiQUMiLCI4NjE1Il0sWyJZWVoiLCIyMDI2LTExLTE0IiwiRlJBIixudWxsLCJBQyIsIjg0MiJdXV0="
+  },
+  {
+   "flights": [
+    {
+     "departure_airport": {
+      "name": "Dulles International Airport",
+      "id": "IAD",
+      "time": "2026-11-14 07:00"
+     },
+     "arrival_airport": {
+      "name": "Charlotte Douglas International Airport",
+      "id": "CLT",
+      "time": "2026-11-14 08:38"
+     },
+     "duration": 98,
+     "airplane": "Airbus A319",
+     "airline": "American",
+     "travel_class": "Economy",
+     "flight_number": "AA 1637",
+     "legroom": "30 in",
+     "extensions": [
+      "Average legroom (30 in)",
+      "Free Wi-Fi",
+      "In-seat power outlet",
+      "Stream media to your device",
+      "Carbon emissions estimate: 204 kg"
+     ]
+    },
+    {
+     "departure_airport": {
+      "name": "Charlotte Douglas International Airport",
+      "id": "CLT",
+      "time": "2026-11-14 18:20"
+     },
+     "arrival_airport": {
+      "name": "Frankfurt Airport",
+      "id": "FRA",
+      "time": "2026-11-15 08:50"
+     },
+     "duration": 510,
+     "airplane": "Boeing 777",
+     "airline": "American",
+     "travel_class": "Economy",
+     "flight_number": "AA 704",
+     "legroom": "31 in",
+     "extensions": [
+      "Average legroom (31 in)",
+      "Wi-Fi for a fee",
+      "In-seat power & USB outlets",
+      "On-demand video",
+      "Carbon emissions estimate: 983 kg"
+     ],
+     "overnight": true
+    }
+   ],
+   "layovers": [
+    {
+     "duration": 582,
+     "name": "Charlotte Douglas International Airport",
+     "id": "CLT"
+    }
+   ],
+   "total_duration": 1190,
+   "carbon_emissions": {
+    "this_flight": 1188000,
+    "typical_for_this_route": 942000,
+    "difference_percent": 26
+   },
+   "price": 1412,
+   "type": "One way",
+   "booking_token": "WyJDalJJUTFOWk5XNXRPRzlZZGtWQlZITjFPV2RDUnkwdExTMHRMUzB0TFMxMmQyNWhNa0ZCUVVGQlIzSkdVMHAzU1c4Mk5YVkJFZ3hCUVRFMk16ZDhRVUUzTURRYUN3aVF6d2dRQWhvRFZWTkVPQnh3a004SSIsW1siSUFEIiwiMjAyNi0xMS0xNCIsIkNMVCIsbnVsbCwiQUEiLCIxNjM3Il0sWyJDTFQiLCIyMDI2LTExLTE0IiwiRlJBIixudWxsLCJBQSIsIjcwNCJdXV0="
+  },
+  {
+   "flights": [
+    {
+     "departure_airport": {
+      "name": "Dulles International Airport",
+      "id": "IAD",
+      "time": "2026-11-14 17:50"
+     },
+     "arrival_airport": {
+      "name": "Adolfo Su\u00e1rez Madrid-Barajas Airport",
+      "id": "MAD",
+      "time": "2026-11-15 07:30"
+     },
+     "duration": 460,
+     "airplane": "Airbus A321neo",
+     "airline": "Iberia",
+     "travel_class": "Economy",
+     "flight_number": "IB 362",
+     "ticket_also_sold_by": [
+      "American"
+     ],
+     "legroom": "30 in",
+     "extensions": [
+      "Average legroom (30 in)",
+      "Wi-Fi for a fee",
+      "In-seat USB outlet",
+      "On-demand video",
+      "Carbon emissions estimate: 1107 kg"
+     ],
+     "overnight": true
+    },
+    {
+     "departure_airport": {
+      "name": "Adolfo Su\u00e1rez Madrid-Barajas Airport",
+      "id": "MAD",
+      "time": "2026-11-15 16:05"
+     },
+     "arrival_airport": {
+      "name": "Frankfurt Airport",
+      "id": "FRA",
+      "time": "2026-11-15 18:50"
+     },
+     "duration": 165,
+     "airplane": "Canadair RJ 1000",
+     "airline": "Iberia",
+     "travel_class": "Economy",
+     "flight_number": "IB 1333",
+     "ticket_also_sold_by": [
+      "American"
+     ],
+     "legroom": "31 in",
+     "extensions": [
+      "Average legroom (31 in)",
+      "Stream media to your device",
+      "Carbon emissions estimate: 327 kg"
+     ],
+     "plane_and_crew_by": "Air Nostrum for Iberia"
+    }
+   ],
+   "layovers": [
+    {
+     "duration": 515,
+     "name": "Adolfo Su\u00e1rez Madrid-Barajas Airport",
+     "id": "MAD"
+    }
+   ],
+   "total_duration": 1140,
+   "carbon_emissions": {
+    "this_flight": 1436000,
+    "typical_for_this_route": 942000,
+    "difference_percent": 52
+   },
+   "price": 1420,
+   "type": "One way",
+   "booking_token": "WyJDalJJUTFOWk5XNXRPRzlZZGtWQlZITjFPV2RDUnkwdExTMHRMUzB0TFMxMmQyNWhNa0ZCUVVGQlIzSkdVMHAzU1c4Mk5YVkJFZ3hKUWpNMk1ueEpRakV6TXpNYUN3aWMxUWdRQWhvRFZWTkVPQnh3bk5VSSIsW1siSUFEIiwiMjAyNi0xMS0xNCIsIk1BRCIsbnVsbCwiSUIiLCIzNjIiXSxbIk1BRCIsIjIwMjYtMTEtMTUiLCJGUkEiLG51bGwsIklCIiwiMTMzMyJdXV0="
+  },
+  {
+   "flights": [
+    {
+     "departure_airport": {
+      "name": "Dulles International Airport",
+      "id": "IAD",
+      "time": "2026-11-14 06:10"
+     },
+     "arrival_airport": {
+      "name": "Newark Liberty International Airport",
+      "id": "EWR",
+      "time": "2026-11-14 07:28"
+     },
+     "duration": 78,
+     "airplane": "Boeing 737",
+     "airline": "United",
+     "travel_class": "Economy",
+     "flight_number": "UA 1359",
+     "legroom": "30 in",
+     "extensions": [
+      "Average legroom (30 in)",
+      "Wi-Fi for a fee",
+      "Stream media to your device",
+      "Carbon emissions estimate: 166 kg"
+     ]
+    },
+    {
+     "departure_airport": {
+      "name": "Newark Liberty International Airport",
+      "id": "EWR",
+      "time": "2026-11-14 18:00"
+     },
+     "arrival_airport": {
+      "name": "Frankfurt Airport",
+      "id": "FRA",
+      "time": "2026-11-15 07:20"
+     },
+     "duration": 440,
+     "airplane": "Boeing 747",
+     "airline": "Lufthansa",
+     "travel_class": "Economy",
+     "flight_number": "LH 403",
+     "ticket_also_sold_by": [
+      "United"
+     ],
+     "legroom": "31 in",
+     "extensions": [
+      "Average legroom (31 in)",
+      "Wi-Fi for a fee",
+      "In-seat power & USB outlets",
+      "On-demand video",
+      "Carbon emissions estimate: 754 kg"
+     ],
+     "overnight": true,
+     "often_delayed_by_over_30_min": true
+    }
+   ],
+   "layovers": [
+    {
+     "duration": 632,
+     "name": "Newark Liberty International Airport",
+     "id": "EWR"
+    }
+   ],
+   "total_duration": 1150,
+   "carbon_emissions": {
+    "this_flight": 921000,
+    "typical_for_this_route": 942000,
+    "difference_percent": -2
+   },
+   "price": 1606,
+   "type": "One way",
+   "booking_token": "WyJDalJJUTFOWk5XNXRPRzlZZGtWQlZITjFPV2RDUnkwdExTMHRMUzB0TFMxMmQyNWhNa0ZCUVVGQlIzSkdVMHAzU1c4Mk5YVkJFZ3hWUVRFek5UbDhURWcwTURNYUN3alk1Z2tRQWhvRFZWTkVPQnh3Mk9ZSiIsW1siSUFEIiwiMjAyNi0xMS0xNCIsIkVXUiIsbnVsbCwiVUEiLCIxMzU5Il0sWyJFV1IiLCIyMDI2LTExLTE0IiwiRlJBIixudWxsLCJMSCIsIjQwMyJdXV0="
+  },
+  {
+   "flights": [
+    {
+     "departure_airport": {
+      "name": "Dulles International Airport",
+      "id": "IAD",
+      "time": "2026-11-14 20:10"
+     },
+     "arrival_airport": {
+      "name": "Zurich Airport",
+      "id": "ZRH",
+      "time": "2026-11-15 10:15"
+     },
+     "duration": 485,
+     "airplane": "Airbus A330",
+     "airline": "SWISS",
+     "travel_class": "Economy",
+     "flight_number": "LX 73",
+     "legroom": "31 in",
+     "extensions": [
+      "Average legroom (31 in)",
+      "Wi-Fi for a fee",
+      "In-seat USB outlet",
+      "On-demand video",
+      "Carbon emissions estimate: 872 kg"
+     ],
+     "overnight": true
+    },
+    {
+     "departure_airport": {
+      "name": "Zurich Airport",
+      "id": "ZRH",
+      "time": "2026-11-15 19:50"
+     },
+     "arrival_airport": {
+      "name": "Frankfurt Airport",
+      "id": "FRA",
+      "time": "2026-11-15 20:50"
+     },
+     "duration": 60,
+     "airplane": "Airbus A320",
+     "airline": "Lufthansa",
+     "travel_class": "Economy",
+     "flight_number": "LH 1197",
+     "ticket_also_sold_by": [
+      "SWISS"
+     ],
+     "legroom": "30 in",
+     "extensions": [
+      "Average legroom (30 in)",
+      "Carbon emissions estimate: 103 kg"
+     ]
+    }
+   ],
+   "layovers": [
+    {
+     "duration": 575,
+     "name": "Zurich Airport",
+     "id": "ZRH"
+    }
+   ],
+   "total_duration": 1120,
+   "carbon_emissions": {
+    "this_flight": 976000,
+    "typical_for_this_route": 942000,
+    "difference_percent": 4
+   },
+   "price": 1609,
+   "type": "One way",
+   "booking_token": "WyJDalJJUTFOWk5XNXRPRzlZZGtWQlZITjFPV2RDUnkwdExTMHRMUzB0TFMxMmQyNWhNa0ZCUVVGQlIzSkdVMHAzU1c4Mk5YVkJFZ3RNV0RjemZFeElNVEU1TnhvTENQRG9DUkFDR2dOVlUwUTRISER3NkFrPSIsW1siSUFEIiwiMjAyNi0xMS0xNCIsIlpSSCIsbnVsbCwiTFgiLCI3MyJdLFsiWlJIIiwiMjAyNi0xMS0xNSIsIkZSQSIsbnVsbCwiTEgiLCIxMTk3Il1dXQ=="
+  },
+  {
+   "flights": [
+    {
+     "departure_airport": {
+      "name": "Dulles International Airport",
+      "id": "IAD",
+      "time": "2026-11-14 22:55"
+     },
+     "arrival_airport": {
+      "name": "Munich International Airport",
+      "id": "MUC",
+      "time": "2026-11-15 13:00"
+     },
+     "duration": 485,
+     "airplane": "Airbus A380",
+     "airline": "Lufthansa",
+     "travel_class": "Economy",
+     "flight_number": "LH 415",
+     "ticket_also_sold_by": [
+      "United"
+     ],
+     "legroom": "31 in",
+     "extensions": [
+      "Average legroom (31 in)",
+      "Wi-Fi for a fee",
+      "In-seat USB outlet",
+      "On-demand video",
+      "Carbon emissions estimate: 1302 kg"
+     ],
+     "overnight": true
+    },
+    {
+     "departure_airport": {
+      "name": "Munich International Airport",
+      "id": "MUC",
+      "time": "2026-11-15 21:00"
+     },
+     "arrival_airport": {
+      "name": "Frankfurt Airport",
+      "id": "FRA",
+      "time": "2026-11-15 22:00"
+     },
+     "duration": 60,
+     "airplane": "Airbus A320neo",
+     "airline": "Lufthansa",
+     "travel_class": "Economy",
+     "flight_number": "LH 123",
+     "legroom": "29 in",
+     "extensions": [
+      "Below average legroom (29 in)",
+      "In-seat USB outlet",
+      "Carbon emissions estimate: 90 kg"
+     ]
+    }
+   ],
+   "layovers": [
+    {
+     "duration": 480,
+     "name": "Munich International Airport",
+     "id": "MUC"
+    }
+   ],
+   "total_duration": 1025,
+   "carbon_emissions": {
+    "this_flight": 1393000,
+    "typical_for_this_route": 942000,
+    "difference_percent": 48
+   },
+   "price": 1611,
+   "type": "One way",
+   "booking_token": "WyJDalJJUTFOWk5XNXRPRzlZZGtWQlZITjFPV2RDUnkwdExTMHRMUzB0TFMxMmQyNWhNa0ZCUVVGQlIzSkdVMHAzU1c4Mk5YVkJFZ3RNU0RReE5YeE1TREV5TXhvTENLVHFDUkFDR2dOVlUwUTRISENrNmdrPSIsW1siSUFEIiwiMjAyNi0xMS0xNCIsIk1VQyIsbnVsbCwiTEgiLCI0MTUiXSxbIk1VQyIsIjIwMjYtMTEtMTUiLCJGUkEiLG51bGwsIkxIIiwiMTIzIl1dXQ=="
+  },
+  {
+   "flights": [
+    {
+     "departure_airport": {
+      "name": "Dulles International Airport",
+      "id": "IAD",
+      "time": "2026-11-14 17:50"
+     },
+     "arrival_airport": {
+      "name": "Adolfo Su\u00e1rez Madrid-Barajas Airport",
+      "id": "MAD",
+      "time": "2026-11-15 07:30"
+     },
+     "duration": 460,
+     "airplane": "Airbus A321neo",
+     "airline": "Iberia",
+     "travel_class": "Economy",
+     "flight_number": "IB 362",
+     "legroom": "30 in",
+     "extensions": [
+      "Average legroom (30 in)",
+      "Wi-Fi for a fee",
+      "In-seat USB outlet",
+      "On-demand video",
+      "Carbon emissions estimate: 1107 kg"
+     ],
+     "overnight": true
+    },
+    {
+     "departure_airport": {
+      "name": "Adolfo Su\u00e1rez Madrid-Barajas Airport",
+      "id": "MAD",
+      "time": "2026-11-15 19:50"
+     },
+     "arrival_airport": {
+      "name": "Frankfurt Airport",
+      "id": "FRA",
+      "time": "2026-11-15 22:35"
+     },
+     "duration": 165,
+     "airplane": "Canadair RJ 1000",
+     "airline": "Iberia",
+     "travel_class": "Economy",
+     "flight_number": "IB 1331",
+     "legroom": "31 in",
+     "extensions": [
+      "Average legroom (31 in)",
+      "Stream media to your device",
+      "Carbon emissions estimate: 327 kg"
+     ],
+     "plane_and_crew_by": "Air Nostrum for Iberia"
+    }
+   ],
+   "layovers": [
+    {
+     "duration": 740,
+     "name": "Adolfo Su\u00e1rez Madrid-Barajas Airport",
+     "id": "MAD"
+    }
+   ],
+   "total_duration": 1365,
+   "carbon_emissions": {
+    "this_flight": 1436000,
+    "typical_for_this_route": 942000,
+    "difference_percent": 52
+   },
+   "price": 1682,
+   "type": "One way",
+   "booking_token": "WyJDalJJUTFOWk5XNXRPRzlZZGtWQlZITjFPV2RDUnkwdExTMHRMUzB0TFMxMmQyNWhNa0ZCUVVGQlIzSkdVMHAzU1c4Mk5YVkJFZ3hKUWpNMk1ueEpRakV6TXpFYUN3aUlvZ29RQWhvRFZWTkVPQnh3aUtJSyIsW1siSUFEIiwiMjAyNi0xMS0xNCIsIk1BRCIsbnVsbCwiSUIiLCIzNjIiXSxbIk1BRCIsIjIwMjYtMTEtMTUiLCJGUkEiLG51bGwsIklCIiwiMTMzMSJdXV0="
+  },
+  {
+   "flights": [
+    {
+     "departure_airport": {
+      "name": "Dulles International Airport",
+      "id": "IAD",
+      "time": "2026-11-14 18:05"
+     },
+     "arrival_airport": {
+      "name": "Heathrow Airport",
+      "id": "LHR",
+      "time": "2026-11-15 06:15"
+     },
+     "duration": 430,
+     "airplane": "Boeing 787",
+     "airline": "British Airways",
+     "travel_class": "Economy",
+     "flight_number": "BA 216",
+     "legroom": "31 in",
+     "extensions": [
+      "Average legroom (31 in)",
+      "In-seat power & USB outlets",
+      "On-demand video",
+      "Carbon emissions estimate: 802 kg"
+     ],
+     "overnight": true
+    },
+    {
+     "departure_airport": {
+      "name": "Heathrow Airport",
+      "id": "LHR",
+      "time": "2026-11-15 15:25"
+     },
+     "arrival_airport": {
+      "name": "Frankfurt Airport",
+      "id": "FRA",
+      "time": "2026-11-15 18:10"
+     },
+     "duration": 105,
+     "airplane": "Airbus A320neo",
+     "airline": "British Airways",
+     "travel_class": "Economy",
+     "flight_number": "BA 906",
+     "legroom": "29 in",
+     "extensions": [
+      "Below average legroom (29 in)",
+      "Wi-Fi for a fee",
+      "In-seat USB outlet",
+      "Carbon emissions estimate: 131 kg"
+     ]
+    }
+   ],
+   "layovers": [
+    {
+     "duration": 550,
+     "name": "Heathrow Airport",
+     "id": "LHR"
+    }
+   ],
+   "total_duration": 1085,
+   "carbon_emissions": {
+    "this_flight": 934000,
+    "typical_for_this_route": 942000,
+    "difference_percent": -1
+   },
+   "price": 1922,
+   "type": "One way",
+   "booking_token": "WyJDalJJUTFOWk5XNXRPRzlZZGtWQlZITjFPV2RDUnkwdExTMHRMUzB0TFMxMmQyNWhNa0ZCUVVGQlIzSkdVMHAzU1c4Mk5YVkJFZ3RDUVRJeE5ueENRVGt3TmhvTENJemRDeEFDR2dOVlUwUTRISENNM1FzPSIsW1siSUFEIiwiMjAyNi0xMS0xNCIsIkxIUiIsbnVsbCwiQkEiLCIyMTYiXSxbIkxIUiIsIjIwMjYtMTEtMTUiLCJGUkEiLG51bGwsIkJBIiwiOTA2Il1dXQ=="
+  },
+  {
+   "flights": [
+    {
+     "departure_airport": {
+      "name": "Dulles International Airport",
+      "id": "IAD",
+      "time": "2026-11-14 21:45"
+     },
+     "arrival_airport": {
+      "name": "Heathrow Airport",
+      "id": "LHR",
+      "time": "2026-11-15 10:00"
+     },
+     "duration": 435,
+     "airplane": "Boeing 777",
+     "airline": "British Airways",
+     "travel_class": "Economy",
+     "flight_number": "BA 292",
+     "legroom": "31 in",
+     "extensions": [
+      "Average legroom (31 in)",
+      "Wi-Fi for a fee",
+      "In-seat USB outlet",
+      "On-demand video",
+      "Carbon emissions estimate: 1026 kg"
+     ],
+     "overnight": true
+    },
+    {
+     "departure_airport": {
+      "name": "Heathrow Airport",
+      "id": "LHR",
+      "time": "2026-11-15 19:25"
+     },
+     "arrival_airport": {
+      "name": "Frankfurt Airport",
+      "id": "FRA",
+      "time": "2026-11-15 22:05"
+     },
+     "duration": 100,
+     "airplane": "Airbus A320neo",
+     "airline": "British Airways",
+     "travel_class": "Economy",
+     "flight_number": "BA 910",
+     "legroom": "29 in",
+     "extensions": [
+      "Below average legroom (29 in)",
+      "Wi-Fi for a fee",
+      "In-seat USB outlet",
+      "Carbon emissions estimate: 131 kg"
+     ]
+    }
+   ],
+   "layovers": [
+    {
+     "duration": 565,
+     "name": "Heathrow Airport",
+     "id": "LHR"
+    }
+   ],
+   "total_duration": 1100,
+   "carbon_emissions": {
+    "this_flight": 1157000,
+    "typical_for_this_route": 942000,
+    "difference_percent": 23
+   },
+   "price": 1922,
+   "type": "One way",
+   "booking_token": "WyJDalJJUTFOWk5XNXRPRzlZZGtWQlZITjFPV2RDUnkwdExTMHRMUzB0TFMxMmQyNWhNa0ZCUVVGQlIzSkdVMHAzU1c4Mk5YVkJFZ3RDUVRJNU1ueENRVGt4TUJvTENJemRDeEFDR2dOVlUwUTRISENNM1FzPSIsW1siSUFEIiwiMjAyNi0xMS0xNCIsIkxIUiIsbnVsbCwiQkEiLCIyOTIiXSxbIkxIUiIsIjIwMjYtMTEtMTUiLCJGUkEiLG51bGwsIkJBIiwiOTEwIl1dXQ=="
+  },
+  {
+   "flights": [
+    {
+     "departure_airport": {
+      "name": "Dulles International Airport",
+      "id": "IAD",
+      "time": "2026-11-14 17:45"
+     },
+     "arrival_airport": {
+      "name": "Brussels Airport",
+      "id": "BRU",
+      "time": "2026-11-15 07:15"
+     },
+     "duration": 450,
+     "airplane": "Boeing 777",
+     "airline": "United",
+     "travel_class": "Economy",
+     "flight_number": "UA 950",
+     "ticket_also_sold_by": [
+      "Brussels Airlines"
+     ],
+     "legroom": "31 in",
+     "extensions": [
+      "Average legroom (31 in)",
+      "Wi-Fi for a fee",
+      "In-seat power & USB outlets",
+      "On-demand video",
+      "Carbon emissions estimate: 802 kg"
+     ],
+     "overnight": true,
+     "often_delayed_by_over_30_min": true
+    },
+    {
+     "departure_airport": {
+      "name": "Brussels Airport",
+      "id": "BRU",
+      "time": "2026-11-15 17:05"
+     },
+     "arrival_airport": {
+      "name": "Frankfurt Airport",
+      "id": "FRA",
+      "time": "2026-11-15 18:20"
+     },
+     "duration": 75,
+     "airplane": "Airbus A319",
+     "airline": "Brussels Airlines",
+     "travel_class": "Economy",
+     "flight_number": "SN 2615",
+     "legroom": "30 in",
+     "extensions": [
+      "Average legroom (30 in)",
+      "Carbon emissions estimate: 125 kg"
+     ]
+    }
+   ],
+   "layovers": [
+    {
+     "duration": 590,
+     "name": "Brussels Airport",
+     "id": "BRU"
+    }
+   ],
+   "total_duration": 1115,
+   "carbon_emissions": {
+    "this_flight": 929000,
+    "typical_for_this_route": 942000,
+    "difference_percent": -1
+   },
+   "price": 5852,
+   "type": "One way",
+   "booking_token": "WyJDalJJUTFOWk5XNXRPRzlZZGtWQlZITjFPV2RDUnkwdExTMHRMUzB0TFMxMmQyNWhNa0ZCUVVGQlIzSkdVMHAzU1c4Mk5YVkJFZ3hWUVRrMU1IeFRUakkyTVRVYUN3akkyeU1RQWhvRFZWTkVPQnh3eU5zaiIsW1siSUFEIiwiMjAyNi0xMS0xNCIsIkJSVSIsbnVsbCwiVUEiLCI5NTAiXSxbIkJSVSIsIjIwMjYtMTEtMTUiLCJGUkEiLG51bGwsIlNOIiwiMjYxNSJdXV0="
+  }
+ ],
+ "airports": [
+  {
+   "departure": [
+    {
+     "airport": {
+      "id": "IAD",
+      "name": "Dulles International Airport"
+     },
+     "city": "Washington",
+     "country": "United States",
+     "country_code": "US",
+     "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRG0OK4wTkRsqDVobvhtBOPZMDsUETpgJ7jPzOA--4D-HL-0BVkyp4S9gvw7CBWMKyfFVS0lLRn7pmR-Q",
+     "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRMLLOliMVP16YVOyMBlzc0Gmxx-R5fU2bSGBN2tw9x-6tWr0q5I3bRnaMOot3V_SMDxjwVNjxd3aIlFxHtZL0Yc8rVnZAQAs2upGkhIZ0"
+    }
+   ],
+   "arrival": [
+    {
+     "airport": {
+      "id": "FRA",
+      "name": "Frankfurt Airport"
+     },
+     "city": "Frankfurt am Main",
+     "country": "Germany",
+     "country_code": "DE",
+     "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRqdKUfBWQXvmp7-Y6p2lZnjO0xPPGMl7Wnh1tOp4QR5QfoOyaq2AqdvByEgXmwe_eGAYewCKeUlXGxqQ",
+     "thumbnail": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRthwXcj3pIl7-x_4xgko5YQeqkTISsGgqS8vvDyYGQIu3lfxXz40TSEiN_5YR7AfORo7EaBO1V46ilVJueQaqWGBb5GzrVbbIt2vBOALM"
+    }
+   ]
+  }
+ ]
+}

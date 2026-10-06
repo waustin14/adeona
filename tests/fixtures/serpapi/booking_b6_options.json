@@ -1,0 +1,105 @@
+{
+ "_comment": "Normalized FareOption list from a live SerpApi booking_options call for B6 2423 IAD-MCO 2026-11-14 (search price $114 with exclude_basic). Captured 2026-10-06.",
+ "options": [
+  {
+   "brand": "Main Base",
+   "price": 79.0,
+   "book_with": "JetBlue",
+   "sold_by_airline": true,
+   "is_basic_economy": false,
+   "bag_rules": {
+    "carry_on_included": true,
+    "checked_bags_included": 0,
+    "first_checked_fee": 45.0,
+    "second_checked_fee": null
+   },
+   "features": [
+    "Extra legroom available for a fee",
+    "Priority boarding for a fee",
+    "Ticket changes for a fee",
+    "No refunds",
+    "Seat selection for a fee"
+   ]
+  },
+  {
+   "brand": "Main",
+   "price": 114.0,
+   "book_with": "JetBlue",
+   "sold_by_airline": true,
+   "is_basic_economy": false,
+   "bag_rules": {
+    "carry_on_included": true,
+    "checked_bags_included": 0,
+    "first_checked_fee": 45.0,
+    "second_checked_fee": null
+   },
+   "features": [
+    "Extra legroom available for a fee",
+    "Priority boarding for a fee",
+    "Free change, possible fare difference",
+    "No refunds",
+    "Free seat selection"
+   ]
+  },
+  {
+   "brand": "Main Flex",
+   "price": 174.0,
+   "book_with": "JetBlue",
+   "sold_by_airline": true,
+   "is_basic_economy": false,
+   "bag_rules": {
+    "carry_on_included": true,
+    "checked_bags_included": 0,
+    "first_checked_fee": 45.0,
+    "second_checked_fee": null
+   },
+   "features": [
+    "Extra legroom available for a fee",
+    "Priority boarding",
+    "Free change, possible fare difference",
+    "Full refunds",
+    "Free seat selection"
+   ]
+  },
+  {
+   "brand": "Even More Base",
+   "price": 133.0,
+   "book_with": "JetBlue",
+   "sold_by_airline": true,
+   "is_basic_economy": false,
+   "bag_rules": {
+    "carry_on_included": true,
+    "checked_bags_included": 0,
+    "first_checked_fee": 45.0,
+    "second_checked_fee": null
+   },
+   "features": [
+    "Extra legroom",
+    "Priority boarding",
+    "Ticket changes for a fee",
+    "No refunds",
+    "Complimentary alcoholic drinks"
+   ]
+  },
+  {
+   "brand": "Even More",
+   "price": 168.0,
+   "book_with": "JetBlue",
+   "sold_by_airline": true,
+   "is_basic_economy": false,
+   "bag_rules": {
+    "carry_on_included": true,
+    "checked_bags_included": 0,
+    "first_checked_fee": 45.0,
+    "second_checked_fee": null
+   },
+   "features": [
+    "Extra legroom",
+    "Priority boarding",
+    "Free change, possible fare difference",
+    "No refunds",
+    "Complimentary alcoholic drinks"
+   ]
+  }
+ ]
+}
